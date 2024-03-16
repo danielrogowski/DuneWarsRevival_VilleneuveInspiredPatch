@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Civ4GameText>
+	<!-- New Concepts -->
+	<TEXT>
+		<Tag>TXT_KEY_DW_CONCEPT_ATREIDES</Tag>
+		<English>
+[H1]Atreides Abilities[\H1]
+[ICON_BULLET]The Atreides Civilization, although cannot train any spies, do have, besides extra espionage defense (+25%), the ability to run a passive espionage mission that can gain a rival Team's total visibility if they build at least one 'Intelligence Post'. This unique mission is called 'Intelligence Visibility', can be checked on the Espionage Advisor and works with mechanics similar to the ones of other passive espionage missons. It starts with the base cost of 150 [ICON_ESPIONAGE] points but the cost will grow as the rivals generate more [ICON_ESPIONAGE] against you. However, each extra 'Intelligence Post' built will grant a 4% discount.
+		</English>
+		<French>0</French>
+		<German>0</German>
+		<Italian>0</Italian>
+		<Spanish>0</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DW_CONCEPT_TLEILAX</Tag>
+		<English>
+[H1]Bene Tleilax Abilities[\H1]
+[ICON_BULLET] The Bene Tleilax have Axlotl Tanks that can hatch a ghola based on a 'Genetic Model' stored. Gholas can only be created from the Melee, Guardsman, Vehicle, Thopter and Suspensor combat categories and, with the exception of Melee, the required Tech and Bonus of the chosen unit is needed as well as some [ICON_GOLD] for the Equipment/Material expensives.
+ If a ghola dies, one  is allowed to create another one from the same previous cells: but there can only be one ghola online for each specimen, even if upgraded. 
+ It's possible to specifically choose the 'genetic data' for each ghola, but randomness does exist regarding their 'genetic memories' or Exp/Promotions.
+
+[ICON_BULLET] Axlotl [ICON_GREATPEOPLE] Tanks will spontaneously appear in a city as experiments of an Axlotl Chamber (required) and their total number will be directly related to the number of Assassinated Specialists by Face Dancers and the number of Free Specialists that joined the specific city.
+
+[ICON_BULLET] The Face Dancer, with the 'Genetic Manipulation' tech, has a small chance every turn inside a rival's borders to shapeshift into the corresponding rival spy (cannot change into Spy drone, though, nor into Truthsayer). The unit will shapeshift back when inside the Tleilax's borders conserving the gained promotions.
+
+[ICON_BULLET] The Tleilaxu Master replaces the Great Prophet and has special abilities as: 
+ - Purge the Powindah: can remove foreign [ICON_RELIGION] from all owned cities and can add temporary [ICON_HAPPY] and a [ICON_CULTURE] boost where the purging happened. Also, it re-establishes the State [ICON_RELIGION] in cities where it disappeared. Requires 'Divine Mandate'.
+ - Stimulate the 'Language of God': 2 extra [ICON_RESEARCH] to the Tleilaxu unique buildings. Requires 'Genetic Manipulation'. Can only be triggered one time per game.
+		</English>
+		<French>0</French>
+		<German>0</German>
+		<Italian>0</Italian>
+		<Spanish>0</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DW_CONCEPT_MOVEMENT</Tag>
+		<English>
+[H1]Movement[\H1]
+Movement on a desert planet is substantially different than movement on other planets.
+[NEWLINE]
+In the deep desert, there is no way to make permanent roads.  Instead, there are several technologies which enable you to automatically hook up resources.  In a standard game of Civilization, researching the Sailing technology allows you to automatically connect resources along river and coast terrain.  Similarly, in Dune Wars, researching Desert Trade allows you to automatically connect resources along the normal terrains.  Researching Offworld Trade allows you to automatically connect resources along desert waste and deep desert terrain.
+[NEWLINE]
+Normal units cannot move in the deep desert.  In the early game, you may use scout thopters to carry many foot units, in particular the worker and settler.  Beware of exposing your scout thopters to any danger, since their defensive strength is very low.  Later in the game, when you research the Suspensor technology, you will be able to build units with higher defensive strength, larger carrying capacity, and faster movement.  Carryalls, heavy air transport units, are available when you progress deeper in the technology tree.
+[NEWLINE]
+Because suspensor transports may move over any terrain, enemies may attack any city.  You should fortify even cities deep in your home territory.
+		</English>
+		<French>
+[H1]Mouvement[\H1]
+Les Mouvements sur la Planète désert sont différents des mouvements sur les autres planètes.
+[NEWLINE]
+Dans le désert, il n'est pas possible d'établir des routes permanentes. A la place, certaines technologies permettent l'appropriation automatique des ressources : 'Commerce du Désert' connecte les ressources sur le terrain rocheux, et le Commerce Interplanétaire permet de connecter les ressources au-delà des étendues désertiques.
+[NEWLINE]
+Les unités standard ne peuvent pas se déplacer dans le désert. Dans les premiers temps, seuls les ornithoptères peuvent survoler le désert et transporter quelques troupes, en particulier les Ouvriers et les Colons. Faites attention à ne pas exposer ces engins fragiles au danger. Plus tard dans le jeu, avec la découverte de la technologie des suspenseurs, il vous sera possible de construire des véhicules plus robustes, plus rapides, et d'une capacité de transport plus grande. Les ailes porteuses, unités de transport lourd, sont également disponibles lorsque vous progressez plus avant dans l'arbre des technologies.
+[NEWLINE]
+Attention, comme les transports à suspensors peuvent se déplacer sur tous les terraines, les ennemis peuvent atteindre et attaquer n'importe quelle ville. Vous devez donc fortifier même les Villes situées au centre de votre territoire.
+		</French>
+		<German>
+[H1]Movement[\H1]
+Movement on a desert planet is substantially different than movement on other planets.
+[NEWLINE]
+In the deep desert, there is no way to make permanent roads.  Instead, there are several technologies which enable you to automatically hook up resources.  In a standard game of Civilization, researching the Sailing technology allows you to automatically connect resources along river and coast terrain.  Similarly, in Dune Wars, researching Desert Trade allows you to automatically connect resources along the normal terrains.  Researching Offworld Trade allows you to automatically connect resources along desert waste and deep desert terrain.
+[NEWLINE]
+Normal units cannot move in the deep desert.  In the early game, you may use scout thopters to carry many foot units, in particular the worker and settler.  Beware of exposing your scout thopters to any danger, since their defensive strength is very low.  Later in the game, when you research the Suspensor technology, you will be able to build units with higher defensive strength, larger carrying capacity, and faster movement.  Carryalls, heavy air transport units, are available when you progress deeper in the technology tree.
+[NEWLINE]
+Because suspensor transports may move over any terrain, enemies may attack any city.  You should fortify even cities deep in your home territory.
+		</German>
+		<Italian>
+[H1]Movement[\H1]
+Movement on a desert planet is substantially different than movement on other planets.
+[NEWLINE]
+In the deep desert, there is no way to make permanent roads.  Instead, there are several technologies which enable you to automatically hook up resources.  In a standard game of Civilization, researching the Sailing technology allows you to automatically connect resources along river and coast terrain.  Similarly, in Dune Wars, researching Desert Trade allows you to automatically connect resources along the normal terrains.  Researching Offworld Trade allows you to automatically connect resources along desert waste and deep desert terrain.
+[NEWLINE]
+Normal units cannot move in the deep desert.  In the early game, you may use scout thopters to carry many foot units, in particular the worker and settler.  Beware of exposing your scout thopters to any danger, since their defensive strength is very low.  Later in the game, when you research the Suspensor technology, you will be able to build units with higher defensive strength, larger carrying capacity, and faster movement.  Carryalls, heavy air transport units, are available when you progress deeper in the technology tree.
+[NEWLINE]
+Because suspensor transports may move over any terrain, enemies may attack any city.  You should fortify even cities deep in your home territory.
+		</Italian>
+		<Spanish>
+[H1]Movement[\H1]
+Movement on a desert planet is substantially different than movement on other planets.
+[NEWLINE]
+In the deep desert, there is no way to make permanent roads.  Instead, there are several technologies which enable you to automatically hook up resources.  In a standard game of Civilization, researching the Sailing technology allows you to automatically connect resources along river and coast terrain.  Similarly, in Dune Wars, researching Desert Trade allows you to automatically connect resources along the normal terrains.  Researching Offworld Trade allows you to automatically connect resources along desert waste and deep desert terrain.
+[NEWLINE]
+Normal units cannot move in the deep desert.  In the early game, you may use scout thopters to carry many foot units, in particular the worker and settler.  Beware of exposing your scout thopters to any danger, since their defensive strength is very low.  Later in the game, when you research the Suspensor technology, you will be able to build units with higher defensive strength, larger carrying capacity, and faster movement.  Carryalls, heavy air transport units, are available when you progress deeper in the technology tree.
+[NEWLINE]
+Because suspensor transports may move over any terrain, enemies may attack any city.  You should fortify even cities deep in your home territory.
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DW_CONCEPT_HAZARDS</Tag>
+		<English>
+[H1]Hazards[\H1]
+There are several hazards native to Arrakis which can destroy your improvements and units.
+[NEWLINE]
+Arrakis is prone to sandstorms which can produce winds of up to 350 km/hr.  Tese storms will destroy any improvement or unit in their path.  They travel from west to east on the map, gaining strength over deep desert.  They will often be dispersed by hills or mountain peaks.
+[NEWLINE]
+The sandworm is a huge worm-like creature native to Arrakis.  It is involved in producing spice; but it is very large and attracted to any unit in the desert.  As it moves, it may kill units and destroy improvements.  You will see a disk of sand moving in the desert; this is called "wormsign" and it represents a worm travelling through the sand.  If you see wormsign, run!  Shelter on any nearby solid terrain, away from desert waste and deep desert.
+[NEWLINE]
+Sandworms and moisture do not interact well.  Catchbasins, Reservoirs of Liet and some wells will add moisture to the surrounding tiles.  Sandworms will not enter any plot which has Moisture.
+		</English>
+		<French>
+[H1]Evénements aléatoires[\H1]
+Il y a des événements aléatoires propres à Arrakis qui peuvent causer la destruction d'aménagmeents ou d'unités.
+[NEWLINE]
+Arrakis est un monde où les tempêtes des sables sont fréquentes, avec des vents de plus de 350 km/heure. ces tempêtes détruisent tous les aménagements ou unités sur leur passage. Elles se déplacent généralement d'ouest en est, récupérant leur puissance dans les désert profond. Elles se dispersent contre les collines et les montagnes.
+[NEWLINE]
+Le Ver des sables est une créature géante ressemblant aux lombrics, native d'Arrakis. Elle fait partie de la chaîne de production de l'Epice; mais c'est également une créature très massive et attirée par tout ce qui se déplace et vibre dans le désert. Lorsqu'ils se déplacent sur une case, ces vers tuent généralement les unités et détruisent les aménagements. On les repère au loin car ils forment une dune de sable qui se déplace ; On appelle ces mouvements de sables dénonçant leur présence 'Signe de Ver'. Si vous voyez un telle colline mouvante, fuyez ! Réfugiez-vous sur du terrain solide, ou près de rochers qui entravent les déplacements de ces mastodontes.
+[NEWLINE]
+Les vers de sables ne supporte pas l'humidité. Les caches d'eau, réservoirs de Liet et certains puits propagent une certaines humidité alentour. Les Vers des sables n'entreront pas dans des cases avec de l'humidité.
+		</French>
+		<German>
+[H1]Hazards[\H1]
+There are several hazards native to Arrakis which can destroy your improvements and units.
+[NEWLINE]
+Arrakis is prone to sandstorms which can produce winds of up to 350 km/hr.  Tese storms will destroy any improvement or unit in their path.  They travel from west to east on the map, gaining strength over deep desert.  They will often be dispersed by hills or mountain peaks.
+[NEWLINE]
+The sandworm is a huge worm-like creature native to Arrakis.  It is involved in producing spice; but it is very large and attracted to any unit in the desert.  As it moves, it may kill units and destroy improvements.  You will see a disk of sand moving in the desert; this is called "wormsign" and it represents a worm travelling through the sand.  If you see wormsign, run!  Shelter on any nearby solid terrain, away from desert waste and deep desert.
+[NEWLINE]
+Sandworms and moisture do not interact well.  Catchbasins, Reservoirs of Liet and some wells will add moisture to the surrounding tiles.  Sandworms will not enter any plot which has Moisture.
+		</German>
+		<Italian>
+[H1]Hazards[\H1]
+There are several hazards native to Arrakis which can destroy your improvements and units.
+[NEWLINE]
+Arrakis is prone to sandstorms which can produce winds of up to 350 km/hr.  Tese storms will destroy any improvement or unit in their path.  They travel from west to east on the map, gaining strength over deep desert.  They will often be dispersed by hills or mountain peaks.
+[NEWLINE]
+The sandworm is a huge worm-like creature native to Arrakis.  It is involved in producing spice; but it is very large and attracted to any unit in the desert.  As it moves, it may kill units and destroy improvements.  You will see a disk of sand moving in the desert; this is called "wormsign" and it represents a worm travelling through the sand.  If you see wormsign, run!  Shelter on any nearby solid terrain, away from desert waste and deep desert.
+[NEWLINE]
+Sandworms and moisture do not interact well.  Catchbasins, Reservoirs of Liet and some wells will add moisture to the surrounding tiles.  Sandworms will not enter any plot which has Moisture.
+		</Italian>
+		<Spanish>
+[H1]Hazards[\H1]
+There are several hazards native to Arrakis which can destroy your improvements and units.
+[NEWLINE]
+Arrakis is prone to sandstorms which can produce winds of up to 350 km/hr.  Tese storms will destroy any improvement or unit in their path.  They travel from west to east on the map, gaining strength over deep desert.  They will often be dispersed by hills or mountain peaks.
+[NEWLINE]
+The sandworm is a huge worm-like creature native to Arrakis.  It is involved in producing spice; but it is very large and attracted to any unit in the desert.  As it moves, it may kill units and destroy improvements.  You will see a disk of sand moving in the desert; this is called "wormsign" and it represents a worm travelling through the sand.  If you see wormsign, run!  Shelter on any nearby solid terrain, away from desert waste and deep desert.
+[NEWLINE]
+Sandworms and moisture do not interact well.  Catchbasins, Reservoirs of Liet and some wells will add moisture to the surrounding tiles.  Sandworms will not enter any plot which has Moisture.
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DW_CONCEPT_WATER</Tag>
+		<English>
+[H1]Water[\H1]
+Arrakis is a desert planet.  There is no free-standing water.  Water is more important than anything, even spice.  In the game, water takes the place of food.  A city must have access to water in order to grow.  There are several ways to get water.
+[NEWLINE]
+[ICON_BULLET]A city produces a small amount of water by itself.
+[NEWLINE]
+[ICON_BULLET]The groundwater resource is fairly common.  By itself, it produces a small amount of water.  You can build a well improvement which will produce more water.  As you research additional technologies, you will be able to build improvements which produce more water from this resource.
+[NEWLINE]
+[ICON_BULLET]On hills and mountain peaks, you can build a windtrap.  This improvement captures trace moisture from the air and condenses it into usable water.  A location with several hills nearby can be an excellent site for a new city.  Windtraps may not be built adjacent to each other.
+[NEWLINE]
+[ICON_BULLET]There are native plants in the desert which can produce a small amount of water.  Build a Dew Collector improvement on plant resources to gain a small water income.  In addition, these plants provide health or happiness bonuses.
+[NEWLINE]
+Catchbasins, Reservoirs of Liet and some well improvements will add moisture to the surrounding tiles.  Spice will not appear in any of these plots.
+		</English>
+		<French>
+[H1]L'Eau[\H1]
+Arrakis est une planète désert. Il n'y a pas d'eau à sa surface. L'Eau est plus important que toute chose, même l'Epice. Dans ce mod, l'eau remplace la nourriture du jeu original. Une Ville doit avoir accès à l'eau pour croître. Il y a plusieurs moyens d'obtenir de l'eau :
+[NEWLINE]
+[ICON_BULLET]Une Ville produit une petite quantité d'eau par elle-même.
+[NEWLINE]
+[ICON_BULLET]Il y a de l'eau dans des grottes souterraines, en de nombreux endroits. Ces grottes accumulent l'humidité ambiante et renouvellent une petite quantité d'eau. Vous pouvez aménager ces réserves avec des puits afin de profiter de ces ressources. Certaines technologies vous permettront d'exploiter plus d'eau à l'aide d'aménagements plus sophistiqués.
+[NEWLINE]
+[ICON_BULLET]Sur les plateau et les montagnes, vous pouvez construire des Pièges à vent. Cet aménagement capture toute l'humidité de l'air et la condense afin d'obtenir de l'eau utilisable. Une ville peut donc tout à fait être implantée sur des plateaux. Cependant, les pièges à vent ne sont efficaces que s'il sont suffisamment distants l'un de l'autre : on ne peut pas construire des pièges à vent sur des cases adjacentes.
+[NEWLINE]
+[ICON_BULLET]Il y a des plantes natives d'Arrakis qui produisent également une petite quantité d'eau. Les collecteurs de rosée sont des aménagements qui peuvent tirer profit de cette source naturelle d'eau. De plus, l'exploitation de ces plantes peuvent apporter du bonheur ou une meilleure santé à votre population.
+[NEWLINE]
+Les Caches d'eau, les réservoirs de Liet et certains puits diffusent une certaine humidité sur les cases adjacentes. L'Epice ne peut pas exister en présence d'humidité, et n'apparaîtra donc pas sur ces cases.
+		</French>
+		<German>
+[H1]Water[\H1]
+Arrakis is a desert planet.  There is no free-standing water.  Water is more important than anything, even spice.  In the game, water takes the place of food.  A city must have access to water in order to grow.  There are several ways to get water.
+[NEWLINE]
+[ICON_BULLET]A city produces a small amount of water by itself.
+[NEWLINE]
+[ICON_BULLET]The groundwater resource is fairly common.  By itself, it produces a small amount of water.  You can build a well improvement which will produce more water.  As you research additional technologies, you will be able to build improvements which produce more water from this resource.
+[NEWLINE]
+[ICON_BULLET]On hills and mountain peaks, you can build a windtrap.  This improvement captures trace moisture from the air and condenses it into usable water.  A location with several hills nearby can be an excellent site for a new city.  Windtraps may not be built adjacent to each other.
+[NEWLINE]
+[ICON_BULLET]There are native plants in the desert which can produce a small amount of water.  Build a Dew Collector improvement on plant resources to gain a small water income.  In addition, these plants provide health or happiness bonuses.
+[NEWLINE]
+Catchbasins, Reservoirs of Liet and some well improvements will add moisture to the surrounding tiles.  Spice will not appear in any of these plots.
+		</German>
+		<Italian>
+[H1]Water[\H1]
+Arrakis is a desert planet.  There is no free-standing water.  Water is more important than anything, even spice.  In the game, water takes the place of food.  A city must have access to water in order to grow.  There are several ways to get water.
+[NEWLINE]
+[ICON_BULLET]A city produces a small amount of water by itself.
+[NEWLINE]
+[ICON_BULLET]The groundwater resource is fairly common.  By itself, it produces a small amount of water.  You can build a well improvement which will produce more water.  As you research additional technologies, you will be able to build improvements which produce more water from this resource.
+[NEWLINE]
+[ICON_BULLET]On hills and mountain peaks, you can build a windtrap.  This improvement captures trace moisture from the air and condenses it into usable water.  A location with several hills nearby can be an excellent site for a new city.  Windtraps may not be built adjacent to each other.
+[NEWLINE]
+[ICON_BULLET]There are native plants in the desert which can produce a small amount of water.  Build a Dew Collector improvement on plant resources to gain a small water income.  In addition, these plants provide health or happiness bonuses.
+[NEWLINE]
+Catchbasins, Reservoirs of Liet and some well improvements will add moisture to the surrounding tiles.  Spice will not appear in any of these plots.
+		</Italian>
+		<Spanish>
+[H1]Water[\H1]
+Arrakis is a desert planet.  There is no free-standing water.  Water is more important than anything, even spice.  In the game, water takes the place of food.  A city must have access to water in order to grow.  There are several ways to get water.
+[NEWLINE]
+[ICON_BULLET]A city produces a small amount of water by itself.
+[NEWLINE]
+[ICON_BULLET]The groundwater resource is fairly common.  By itself, it produces a small amount of water.  You can build a well improvement which will produce more water.  As you research additional technologies, you will be able to build improvements which produce more water from this resource.
+[NEWLINE]
+[ICON_BULLET]On hills and mountain peaks, you can build a windtrap.  This improvement captures trace moisture from the air and condenses it into usable water.  A location with several hills nearby can be an excellent site for a new city.  Windtraps may not be built adjacent to each other.
+[NEWLINE]
+[ICON_BULLET]There are native plants in the desert which can produce a small amount of water.  Build a Dew Collector improvement on plant resources to gain a small water income.  In addition, these plants provide health or happiness bonuses.
+[NEWLINE]
+Catchbasins, Reservoirs of Liet and some well improvements will add moisture to the surrounding tiles.  Spice will not appear in any of these plots.
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DW_CONCEPT_SPICE</Tag>
+		<English>
+[H1]Spice[\H1]
+Arrakis would be an unknown backwater planet except for the spice called Melange.  It provides a number of benefits, making it one of the most valuable resources in the universe.  Spice has a complex lifecycle.  In the game, spice is produced by Spice Blows.  This is a feature which looks like a tornado.  After several turns, it explodes and spreads spice in the adjacent deep desert squares on the map.  The chemistry which produces spice is affected by moisture, so spice will not appear in any tile containing moisture.
+[NEWLINE]
+Once spice is produced by a blow, it may be harvested.  Workers can build a spice harvester improvement to harvest it.  An active harvester will cause the spice to disappear from a square after some time.  Even without a harvester, spice will disappear from a square after a time, but it will take longer.
+[NEWLINE]
+Spice gives a very high commerce benefit when it is sold off-world.  Each civilization's palace building converts spice into a small amount of commerce.  As soon as Off World Trade gets developed, the 'National Wonder' 'Spice off-world trade' appears in the capital.  It provides a large commerce bonus for every Spice it consumes.  Make sure each square of spice inside your cultural borders has a harvester.  This may be challenging because sandworms seek out and destroy the improvements; but keeping several workers on automation will enable them to build the harvesters whenever there is an opportunity.
+[NEWLINE]
+Spice and moisture do not interact well.  Catchbasins, Reservoirs of Liet and some wells will add moisture to the surrounding tiles.  Spice will not appear in any of these plots.
+		</English>
+		<French>
+[H1]L'Epice[\H1]
+Arrakis serait une planète totalement inconnue si elle n'était pas la seule source de l'Epice, également appelé Mélange. L'Epice procure une grand nombre de bénéfices, en faisant une des ressources les plus précieuses de l'Univers. L'Epice a un cycle de vie très complexe.  Dans le jeu, l'Epice est produit par les poches d'Epice. Ces poches explosent et répandent l'Epice sur les cases de désert adjacentes. Cependant, la chimie qui produit l'Epice est affectée par l'humidité, et l'Epice ne pourra pas être présente sur des cases avec de l'humidité.
+[NEWLINE]
+Lorsque l'Epice est répendu par une poche, il peut être exploité. Les Ouvriers peuvent installer et mettre en place des moissonneuses, qui sont représentés par des aménagements dans le jeu. Une moissonneuse récolte l'Epice présent sur la case, qui disparaît peu à peu au fur et à mesure qu'il est récolté. Même s'il n'est pas récolté, l'Epice disparaît, à un rythme plus lent, "dilué" par le sable.
+[NEWLINE]
+L'Epice est un bien précieux, ce qui lui donne un grande valeur marchande. Le Palais de chaque civilisation convertit l'Epice en commerce. Vous avez donc tout intérêt à faire en sorte que toutes vos cases contenant de l'Epice soient équipées de moissonneuses. C'est un vrai challenge, car les vers des sables les détectent et les détruisent régulièrement. En plaçant quelques ouvriers en mode automatique vous permettra de remplacer les moissonneuses dès que nécessaire.
+[NEWLINE]
+Les Caches d'eau, les réservoirs de Liet et certains puits diffusent une certaine humidité sur les cases adjacentes. L'Epice ne peut pas exister en présence d'humidité, et n'apparaîtra donc pas sur ces cases.
+		</French>
+		<German>
+[H1]Spice[\H1]
+Arrakis would be an unknown backwater planet except for the spice called Melange.  It provides a number of benefits, making it one of the most valuable resources in the universe.  Spice has a complex lifecycle.  In the game, spice is produced by Spice Blows.  This is a feature which looks like a tornado.  After several turns, it explodes and spreads spice in the adjacent deep desert squares on the map.  The chemistry which produces spice is affected by moisture, so spice will not appear in any tile containing moisture.
+[NEWLINE]
+Once spice is produced by a blow, it may be harvested.  Workers can build a spice harvester improvement to harvest it.  An active harvester will cause the spice to disappear from a square after some time.  Even without a harvester, spice will disappear from a square after a time, but it will take longer.
+[NEWLINE]
+Because spice is very valuable, it gives a very high commerce benefit when it is sold.  Each civilization's palace building converts spice into commerce. Make sure each square of spice inside your cultural borders has a harvester.  This may be challenging because sandworms seek out and destroy the improvements; but keeping several workers on automation will enable them to build the harvesters whenever there is an opportunity.
+[NEWLINE]
+Spice and moisture do not interact well.  Catchbasins, Reservoirs of Liet and some wells will add moisture to the surrounding tiles.  Spice will not appear in any of these plots.
+		</German>
+		<Italian>
+[H1]Spice[\H1]
+Arrakis would be an unknown backwater planet except for the spice called Melange.  It provides a number of benefits, making it one of the most valuable resources in the universe.  Spice has a complex lifecycle.  In the game, spice is produced by Spice Blows.  This is a feature which looks like a tornado.  After several turns, it explodes and spreads spice in the adjacent deep desert squares on the map.  The chemistry which produces spice is affected by moisture, so spice will not appear in any tile containing moisture.
+[NEWLINE]
+Once spice is produced by a blow, it may be harvested.  Workers can build a spice harvester improvement to harvest it.  An active harvester will cause the spice to disappear from a square after some time.  Even without a harvester, spice will disappear from a square after a time, but it will take longer.
+[NEWLINE]
+Because spice is very valuable, it gives a very high commerce benefit when it is sold.  Each civilization's palace building converts spice into commerce. Make sure each square of spice inside your cultural borders has a harvester.  This may be challenging because sandworms seek out and destroy the improvements; but keeping several workers on automation will enable them to build the harvesters whenever there is an opportunity.
+[NEWLINE]
+Spice and moisture do not interact well.  Catchbasins, Reservoirs of Liet and some wells will add moisture to the surrounding tiles.  Spice will not appear in any of these plots.
+		</Italian>
+		<Spanish>
+[H1]Spice[\H1]
+Arrakis would be an unknown backwater planet except for the spice called Melange.  It provides a number of benefits, making it one of the most valuable resources in the universe.  Spice has a complex lifecycle.  In the game, spice is produced by Spice Blows.  This is a feature which looks like a tornado.  After several turns, it explodes and spreads spice in the adjacent deep desert squares on the map.  The chemistry which produces spice is affected by moisture, so spice will not appear in any tile containing moisture.
+[NEWLINE]
+Once spice is produced by a blow, it may be harvested.  Workers can build a spice harvester improvement to harvest it.  An active harvester will cause the spice to disappear from a square after some time.  Even without a harvester, spice will disappear from a square after a time, but it will take longer.
+[NEWLINE]
+Because spice is very valuable, it gives a very high commerce benefit when it is sold.  Each civilization's palace building converts spice into commerce. Make sure each square of spice inside your cultural borders has a harvester.  This may be challenging because sandworms seek out and destroy the improvements; but keeping several workers on automation will enable them to build the harvesters whenever there is an opportunity.
+[NEWLINE]
+Spice and moisture do not interact well.  Catchbasins, Reservoirs of Liet and some wells will add moisture to the surrounding tiles.  Spice will not appear in any of these plots.
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DW_CONCEPT_TERRAFORM</Tag>
+		<English>
+[H1]Terraforming[\H1]
+An Imperial ecologist named Liet-Kynes who visited Arrakis realized that it would be possible to terraform the planet into a garden paradise with free-standing water.  The Fremen took up this goal as a religious mission.  In  the game, it is possible to win a Terraforming Victory by carrying out this transformation.  The following steps are required.
+[NEWLINE]
+1. Build up strong cities with a surplus of water.
+[NEWLINE]
+2. Research the Way Of Liet technology.  This enables you to choose a civic called "Arrakis Paradise".
+[NEWLINE]
+3. Switch your civilization to follow the Arrakis Paradise civic.  This choice has consequences!  Several other civilizations depend on spice, which will be destroyed or limited if the planet is terraformed.  These civilizations may immediately declare war, and you will definitely suffer diplomatic penalties when you choose this civic.
+[NEWLINE]
+4. Now you may build catchbasin buildings in your cities.  This will cost water.  It will also make spice collection more difficult, since spice will not appear in tiles that have moisture. 
+[NEWLINE]
+5. Over time, you will notice that the terrain in your territory automatically improves.  First, a plot will turn to anchor grass.  A few turns later, it will turn to grassland, which has a high water yield.  If you are lucky, open water may appear.  In order for a plot to improve, it must have moisture.  Wells, catchbasins and Reservoirs of Liet add moisture to the surrounding tiles.
+[NEWLINE]
+6. Once a city has a catchbasin, you may construct the more advanced Reservoir of Liet in the city.  This will cost even more water.   Catchbasins improve the rate at which terrain improves, and Reservoirs speed it up even more.
+[NEWLINE]
+7. When three percent of the total planet area is transformed to grassland you will win a Terraforming Victory!
+[NEWLINE]
+Civilizations who do not choose to pursue a Terraforming Victory will want to consider the other end of the Arrakis Future civic, Spice Economy.  This gives a significant production bonus to civilizations who choose it.
+		</English>
+		<French>
+[H1]Terraformation[\H1]
+Un écologiste Impérial, Liet-Kynes, a réalisé lors de sa visite sur Arrakis qu'il serait possible de terraformer la planete pour en faire un véritable jardin du paradis, où l'eau sera accessible en surface. Les Fremen ont pris cet objectif comme une mission sacrée. Dans le jeu, il est possible d'obtenir une Victoire par Terraformation en opérant cette transformation. Pour ce faire, il faut réaliser plusieurs étapes : 
+[NEWLINE]
+1. Construire des Villes solides, avec un surplus d'eau.
+[NEWLINE]
+2. Recherche la technologie 'Voie de Liet'. Cette technologie donne accès à la doctrine 'Paradis d'Arrakis'.
+[NEWLINE]
+3. Adoptez cette doctrine. Ce choix a des conséquences ! D'autres civilisations dépendant de l'Epice, qui sera détruit ou au mieux limité si la planète est terraformée. Ces Civilisations vont donc vraissemblablement vous déclarer la Guerre, et vous souffrirez de pénalités diplomatiques importantes envers ceux qui ne partagent pas votre idéal.
+[NEWLINE]
+4. Vous pourrez alors construire des Bassins de récupération d'eau. Cela coutera de l'Eau et la récolte d'Epice sera plus difficile, car il n'apparaît pas sur les cases présentant de l'humidité. 
+[NEWLINE]
+5. Avec le temps, vous remarquerez que le terrain de votre territoire s'améliorera automatiquement. Tout d'abord, avec de l'herbe des dunes, puis avec le temps, de vraies prairies feront leur apparition. Si vous avez de la chance, des lacs et autres étendues d'eau peuvent apparaître. Pour que le terrain s'améliore, il faut de l'humidité. Les puits, bassins de récupération d'eau, réservoirs de Liet peuvent propager l'humidité aux cases adjacentes.
+[NEWLINE]
+6. Lorsqu'une Ville a un bassin de récupération d'eau, il est possible d'y construire les réservoirs de Liet, qui sont des aménagements avancés nécessitant encore plus d'eau, mais accélère grandement la transformation du terrain aux alentours.
+[NEWLINE]
+7. Lorsque 3 pourcent de la planète est transformée en prairies, vous aurez accompli une Victoire par terraformation!
+[NEWLINE]
+Les Civilisation qui choisissent de ne pas mener une victoire par terraformation vont vraissemblablement considérer un autre future pour Arrakis, l'Economie de l'Epice. Cela leur procure un bonus de production significatif.
+		</French>
+		<German>
+[H1]Terraforming[\H1]
+An Imperial ecologist named Liet-Kynes who visited Arrakis realized that it would be possible to terraform the planet into a garden paradise with free-standing water.  The Fremen took up this goal as a religious mission.  In  the game, it is possible to win a Terraforming Victory by carrying out this transformation.  The following steps are required.
+[NEWLINE]
+1. Build up strong cities with a surplus of water.
+[NEWLINE]
+2. Research the Way Of Liet technology.  This enables you to choose a civic called "Arrakis Paradise".
+[NEWLINE]
+3. Switch your civilization to follow the Arrakis Paradise civic.  This choice has consequences!  Several other civilizations depend on spice, which will be destroyed or limited if the planet is terraformed.  These civilizations may immediately declare war, and you will definitely suffer diplomatic penalties when you choose this civic.
+[NEWLINE]
+4. Now you may build catchbasin buildings in your cities.  This will cost water.  It will also make spice collection more difficult, since spice will not appear in tiles that have moisture. 
+[NEWLINE]
+5. Over time, you will notice that the terrain in your territory automatically improves.  First, a plot will turn to anchor grass.  A few turns later, it will turn to grassland, which has a high water yield.  If you are lucky, open water may appear.  In order for a plot to improve, it must have moisture.  Wells, catchbasins and Reservoirs of Liet add moisture to the surrounding tiles.
+[NEWLINE]
+6. Once a city has a catchbasin, you may construct the more advanced Reservoir of Liet in the city.  This will cost even more water.   Catchbasins improve the rate at which terrain improves, and Reservoirs speed it up even more.
+[NEWLINE]
+7. When three percent of the total planet area is transformed to grassland you will win a Terraforming Victory!
+[NEWLINE]
+Civilizations who do not choose to pursue a Terraforming Victory will want to consider the other end of the Arrakis Future civic, Spice Economy.  This gives a significant production bonus to civilizations who choose it.
+		</German>
+		<Italian>
+[H1]Terraforming[\H1]
+An Imperial ecologist named Liet-Kynes who visited Arrakis realized that it would be possible to terraform the planet into a garden paradise with free-standing water.  The Fremen took up this goal as a religious mission.  In  the game, it is possible to win a Terraforming Victory by carrying out this transformation.  The following steps are required.
+[NEWLINE]
+1. Build up strong cities with a surplus of water.
+[NEWLINE]
+2. Research the Way Of Liet technology.  This enables you to choose a civic called "Arrakis Paradise".
+[NEWLINE]
+3. Switch your civilization to follow the Arrakis Paradise civic.  This choice has consequences!  Several other civilizations depend on spice, which will be destroyed or limited if the planet is terraformed.  These civilizations may immediately declare war, and you will definitely suffer diplomatic penalties when you choose this civic.
+[NEWLINE]
+4. Now you may build catchbasin buildings in your cities.  This will cost water.  It will also make spice collection more difficult, since spice will not appear in tiles that have moisture. 
+[NEWLINE]
+5. Over time, you will notice that the terrain in your territory automatically improves.  First, a plot will turn to anchor grass.  A few turns later, it will turn to grassland, which has a high water yield.  If you are lucky, open water may appear.  In order for a plot to improve, it must have moisture.  Wells, catchbasins and Reservoirs of Liet add moisture to the surrounding tiles.
+[NEWLINE]
+6. Once a city has a catchbasin, you may construct the more advanced Reservoir of Liet in the city.  This will cost even more water.   Catchbasins improve the rate at which terrain improves, and Reservoirs speed it up even more.
+[NEWLINE]
+7. When three percent of the total planet area is transformed to grassland you will win a Terraforming Victory!
+[NEWLINE]
+Civilizations who do not choose to pursue a Terraforming Victory will want to consider the other end of the Arrakis Future civic, Spice Economy.  This gives a significant production bonus to civilizations who choose it.
+		</Italian>
+		<Spanish>
+[H1]Terraforming[\H1]
+An Imperial ecologist named Liet-Kynes who visited Arrakis realized that it would be possible to terraform the planet into a garden paradise with free-standing water.  The Fremen took up this goal as a religious mission.  In  the game, it is possible to win a Terraforming Victory by carrying out this transformation.  The following steps are required.
+[NEWLINE]
+1. Build up strong cities with a surplus of water.
+[NEWLINE]
+2. Research the Way Of Liet technology.  This enables you to choose a civic called "Arrakis Paradise".
+[NEWLINE]
+3. Switch your civilization to follow the Arrakis Paradise civic.  This choice has consequences!  Several other civilizations depend on spice, which will be destroyed or limited if the planet is terraformed.  These civilizations may immediately declare war, and you will definitely suffer diplomatic penalties when you choose this civic.
+[NEWLINE]
+4. Now you may build catchbasin buildings in your cities.  This will cost water.  It will also make spice collection more difficult, since spice will not appear in tiles that have moisture. 
+[NEWLINE]
+5. Over time, you will notice that the terrain in your territory automatically improves.  First, a plot will turn to anchor grass.  A few turns later, it will turn to grassland, which has a high water yield.  If you are lucky, open water may appear.  In order for a plot to improve, it must have moisture.  Wells, catchbasins and Reservoirs of Liet add moisture to the surrounding tiles.
+[NEWLINE]
+6. Once a city has a catchbasin, you may construct the more advanced Reservoir of Liet in the city.  This will cost even more water.   Catchbasins improve the rate at which terrain improves, and Reservoirs speed it up even more.
+[NEWLINE]
+7. When three percent of the total planet area is transformed to grassland you will win a Terraforming Victory!
+[NEWLINE]
+Civilizations who do not choose to pursue a Terraforming Victory will want to consider the other end of the Arrakis Future civic, Spice Economy.  This gives a significant production bonus to civilizations who choose it.
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DW_CONCEPT_ABILITIES</Tag>
+		<English>
+[H1]Unique Abilities[\H1]
+In a standard game, each civilization has a small number of unique units and unique buildings.  In this game, each civilization has a unique ability, which changes some of the game rules for the civilization.  In the present version, not every civilization has a unique ability yet.  This means that some civilizations may have an advantage due to their abilities.  See Civilizations section for more.
+		</English>
+		<French>
+[H1]Unique Abilities[\H1]
+In a standard game, each civilization has a small number of unique units and unique buildings.  In this game, each civilization has a unique ability, which changes some of the game rules for the civilization.  In the present version, not every civilization has a unique ability yet.  This means that some civilizations may have an advantage due to their abilities.  See Civilizations section for more.
+		</French>
+		<German>
+[H1]Unique Abilities[\H1]
+In a standard game, each civilization has a small number of unique units and unique buildings.  In this game, each civilization has a unique ability, which changes some of the game rules for the civilization.  In the present version, not every civilization has a unique ability yet.  This means that some civilizations may have an advantage due to their abilities.  See Civilizations section for more.
+		</German>
+		<Italian>
+[H1]Unique Abilities[\H1]
+In a standard game, each civilization has a small number of unique units and unique buildings.  In this game, each civilization has a unique ability, which changes some of the game rules for the civilization.  In the present version, not every civilization has a unique ability yet.  This means that some civilizations may have an advantage due to their abilities.  See Civilizations section for more.
+		</Italian>
+		<Spanish>
+[H1]Unique Abilities[\H1]
+In a standard game, each civilization has a small number of unique units and unique buildings.  In this game, each civilization has a unique ability, which changes some of the game rules for the civilization.  In the present version, not every civilization has a unique ability yet.  This means that some civilizations may have an advantage due to their abilities.  See Civilizations section for more.
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DW_CONCEPT_OFFWORLD</Tag>
+		<English>
+[H1]Off World Trade[\H1]
+Off World Trade is the key to sell Spice to the peoples of the Imperium. Before it's development, Spice is a mediocre economic resource.  As soon as it can be sold off-world, it becomes the most valuable resource in game by far.
+[NEWLINE]
+Arrakis has limited resources.  Many key resources must be brought in from off planet.  When you research Off World Trade, you can build a Landing Stage building.  When it is completed, you will see a picklist which allows you to select one resource from the list below.  You will receive a contract building which produces three units of the resource, one to use and two to trade to your allies.  Each resource may only be contracted in one city for the whole planet, so you should try to build your first Landing Stage early to lock in a resource.  If a resource is unique to a civilization, but that civilization is not played in a particular game, then any civilization may select their resource.  
+		</English>
+		<French>
+[H1]Off World Trade[\H1]
+Arrakis has limited resources.  Many key resources must be brought in from off planet.  When you research Off World Trade, you can build a Landing Stage building.  When it is completed, you will see a picklist which allows you to select one resource from the list below.  You will receive a contract building which produces three units of the resource, one to use and two to trade to your allies.  Each resource may only be contracted in one city for the whole planet, so you should try to build your first Landing Stage early to lock in a resource.  If a resource is unique to a civilization, but that civilization is not played in a particular game, then any civilization may select their resource.  
+		</French>
+		<German>
+[H1]Off World Trade[\H1]
+Arrakis has limited resources.  Many key resources must be brought in from off planet.  When you research Off World Trade, you can build a Landing Stage building.  When it is completed, you will see a picklist which allows you to select one resource from the list below.  You will receive a contract building which produces three units of the resource, one to use and two to trade to your allies.  Each resource may only be contracted in one city for the whole planet, so you should try to build your first Landing Stage early to lock in a resource.  If a resource is unique to a civilization, but that civilization is not played in a particular game, then any civilization may select their resource.  
+		</German>
+		<Italian>
+[H1]Off World Trade[\H1]
+Arrakis has limited resources.  Many key resources must be brought in from off planet.  When you research Off World Trade, you can build a Landing Stage building.  When it is completed, you will see a picklist which allows you to select one resource from the list below.  You will receive a contract building which produces three units of the resource, one to use and two to trade to your allies.  Each resource may only be contracted in one city for the whole planet, so you should try to build your first Landing Stage early to lock in a resource.  If a resource is unique to a civilization, but that civilization is not played in a particular game, then any civilization may select their resource.  
+		</Italian>
+		<Spanish>
+[H1]Off World Trade[\H1]
+Arrakis has limited resources.  Many key resources must be brought in from off planet.  When you research Off World Trade, you can build a Landing Stage building.  When it is completed, you will see a picklist which allows you to select one resource from the list below.  You will receive a contract building which produces three units of the resource, one to use and two to trade to your allies.  Each resource may only be contracted in one city for the whole planet, so you should try to build your first Landing Stage early to lock in a resource.  If a resource is unique to a civilization, but that civilization is not played in a particular game, then any civilization may select their resource.  
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DW_CONCEPT_REINFORCE</Tag>
+		<English>
+[H1]Reinforcements[\H1]
+The Great Houses are headquartered on planets beyond Arrakis.  Local troops may be recruited on-planet but additional forces may be brought in from off-planet.  However, the Spacing Guild controls shipping, so the Houses can only move their troops to Arrakis by paying the Guild for transport.  You must research Offworld Trade before you can purchase reinforcements.
+[NEWLINE]
+Homeworld reinforcements can be brought in using the Homeworld Reinforcements Advisor.  This is the Greek Helmet button near the other advisor buttons in the upper right corner of the screen.  The left side of the Homeworld Reinforcements screen shows what units are available and the cost of each one.  The right side of the screen shows the cities where reinforcements may be delivered.  Select the units and cities, limited by your available funds.  Click the Launch button at the bottom to accept; the units are immediately delivered to the selected city.
+		</English>
+		<French>
+[H1]Reinforcements[\H1]
+The Great Houses are headquartered on planets beyond Arrakis.  Local troops may be recruited on-planet but additional forces may be brought in from off-planet.  However, the Spacing Guild controls shipping, so the Houses can only move their troops to Arrakis by paying the Guild for transport.  You must research Offworld Trade before you can purchase reinforcements.
+[NEWLINE]
+Homeworld reinforcements can be brought in using the Homeworld Reinforcements Advisor.  This is the Greek Helmet button near the other advisor buttons in the upper right corner of the screen.  The left side of the Homeworld Reinforcements screen shows what units are available and the cost of each one.  The right side of the screen shows the cities where reinforcements may be delivered.  Select the units and cities, limited by your available funds.  Click the Launch button at the bottom to accept; the units are immediately delivered to the selected city.
+		</French>
+		<German>
+[H1]Reinforcements[\H1]
+The Great Houses are headquartered on planets beyond Arrakis.  Local troops may be recruited on-planet but additional forces may be brought in from off-planet.  However, the Spacing Guild controls shipping, so the Houses can only move their troops to Arrakis by paying the Guild for transport.  You must research Offworld Trade before you can purchase reinforcements.
+[NEWLINE]
+Homeworld reinforcements can be brought in using the Homeworld Reinforcements Advisor.  This is the Greek Helmet button near the other advisor buttons in the upper right corner of the screen.  The left side of the Homeworld Reinforcements screen shows what units are available and the cost of each one.  The right side of the screen shows the cities where reinforcements may be delivered.  Select the units and cities, limited by your available funds.  Click the Launch button at the bottom to accept; the units are immediately delivered to the selected city.
+		</German>
+		<Italian>
+[H1]Reinforcements[\H1]
+The Great Houses are headquartered on planets beyond Arrakis.  Local troops may be recruited on-planet but additional forces may be brought in from off-planet.  However, the Spacing Guild controls shipping, so the Houses can only move their troops to Arrakis by paying the Guild for transport.  You must research Offworld Trade before you can purchase reinforcements.
+[NEWLINE]
+Homeworld reinforcements can be brought in using the Homeworld Reinforcements Advisor.  This is the Greek Helmet button near the other advisor buttons in the upper right corner of the screen.  The left side of the Homeworld Reinforcements screen shows what units are available and the cost of each one.  The right side of the screen shows the cities where reinforcements may be delivered.  Select the units and cities, limited by your available funds.  Click the Launch button at the bottom to accept; the units are immediately delivered to the selected city.
+		</Italian>
+		<Spanish>
+[H1]Reinforcements[\H1]
+The Great Houses are headquartered on planets beyond Arrakis.  Local troops may be recruited on-planet but additional forces may be brought in from off-planet.  However, the Spacing Guild controls shipping, so the Houses can only move their troops to Arrakis by paying the Guild for transport.  You must research Offworld Trade before you can purchase reinforcements.
+[NEWLINE]
+Homeworld reinforcements can be brought in using the Homeworld Reinforcements Advisor.  This is the Greek Helmet button near the other advisor buttons in the upper right corner of the screen.  The left side of the Homeworld Reinforcements screen shows what units are available and the cost of each one.  The right side of the screen shows the cities where reinforcements may be delivered.  Select the units and cities, limited by your available funds.  Click the Launch button at the bottom to accept; the units are immediately delivered to the selected city.
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DW_CONCEPT_RELIGION</Tag>
+		<English>
+[H1]Religion[\H1]
+Religions operate very differently on Arrakis.  You should read the description of each religion in the religion tab.  Here are several of the main differences.
+[NEWLINE]
+[ICON_BULLET]Tleilaxu automatically founds a religion in its capital city.
+[ICON_BULLET]Certain civilizations are forbidden from founding certain religions.
+[ICON_BULLET]Followers of Mahdi get a religious fighter unit, Mahdi Zealot.
+		</English>
+		<French>
+[H1]Religion[\H1]
+Religions operate very differently on Arrakis.  You should read the description of each religion in the religion tab.  Here are several of the main differences.
+[NEWLINE]
+[ICON_BULLET]Tleilaxu automatically founds a religion in its capital city.
+[ICON_BULLET]Certain civilizations are forbidden from founding certain religions.
+[ICON_BULLET]Followers of Mahdi get a religious fighter unit, Mahdi Zealot.
+		</French>
+		<German>
+[H1]Religion[\H1]
+Religions operate very differently on Arrakis.  You should read the description of each religion in the religion tab.  Here are several of the main differences.
+[NEWLINE]
+[ICON_BULLET]Tleilaxu automatically founds a religion in its capital city.
+[ICON_BULLET]Certain civilizations are forbidden from founding certain religions.
+[ICON_BULLET]Followers of Mahdi get a religious fighter unit, Mahdi Zealot.
+		</German>
+		<Italian>
+[H1]Religion[\H1]
+Religions operate very differently on Arrakis.  You should read the description of each religion in the religion tab.  Here are several of the main differences.
+[NEWLINE]
+[ICON_BULLET]Tleilaxu automatically founds a religion in its capital city.
+[ICON_BULLET]Certain civilizations are forbidden from founding certain religions.
+[ICON_BULLET]Followers of Mahdi get a religious fighter unit, Mahdi Zealot.
+		</Italian>
+		<Spanish>
+[H1]Religion[\H1]
+Religions operate very differently on Arrakis.  You should read the description of each religion in the religion tab.  Here are several of the main differences.
+[NEWLINE]
+[ICON_BULLET]Tleilaxu automatically founds a religion in its capital city.
+[ICON_BULLET]Certain civilizations are forbidden from founding certain religions.
+[ICON_BULLET]Followers of Mahdi get a religious fighter unit, Mahdi Zealot.
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_DW_MOVEMENT</Tag>
+		<English>Movement</English>
+		<French>1. Mouvement</French>
+		<German>1. Movement</German>
+		<Italian>1. Movement</Italian>
+		<Spanish>1. Movement</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_DW_HAZARDS</Tag>
+		<English>Hazards</English>
+		<French>2. Ev�nements Al�atoires</French>
+		<German>2. Hazards</German>
+		<Italian>2. Hazards</Italian>
+		<Spanish>2. Hazards</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_DW_WATER</Tag>
+		<English>Water</English>
+		<French>3. L'Eau</French>
+		<German>3. Water</German>
+		<Italian>3. Water</Italian>
+		<Spanish>3. Water</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_DW_SPICE</Tag>
+		<English>Spice</English>
+		<French>4. L'Epice</French>
+		<German>4. Spice</German>
+		<Italian>4. Spice</Italian>
+		<Spanish>4. Spice</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_DW_TERRAFORM</Tag>
+		<English>Terraforming</English>
+		<French>5. Terraformation</French>
+		<German>5. Terraforming</German>
+		<Italian>5. Terraforming</Italian>
+		<Spanish>5. Terraforming</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_DW_ABILITIES</Tag>
+		<English>Unique Abilities</English>
+		<French>6. Capacit�s Uniques</French>
+		<German>6. Unique Abilities</German>
+		<Italian>6. Unique Abilities</Italian>
+		<Spanish>6. Unique Abilities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_DW_OFFWORLD</Tag>
+		<English>Offworld Trade</English>
+		<French>7. Commerce Interplan�taire</French>
+		<German>7. Offworld Trade</German>
+		<Italian>7. Offworld Trade</Italian>
+		<Spanish>7. Offworld Trade</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_DW_REINFORCE</Tag>
+		<English>Reinforcements</English>
+		<French>8. Renforts</French>
+		<German>8. Reinforcements</German>
+		<Italian>8. Reinforcements</Italian>
+		<Spanish>8. Reinforcements</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_DW_RELIGION</Tag>
+		<English>Religion</English>
+		<French>9. Religion</French>
+		<German>9. Religion</German>
+		<Italian>9. Religion</Italian>
+		<Spanish>9. Religion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_DW_ATREIDES</Tag>
+		<English>Atreides Abilities</English>
+		<French>10. Mouvement</French>
+		<German>10. Movement</German>
+		<Italian>10. Movement</Italian>
+		<Spanish>10. Movement</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_DW_TLEILAX</Tag>
+		<English>Bene Tleilax Abilities</English>
+		<French>10. Mouvement</French>
+		<German>10. Movement</German>
+		<Italian>10. Movement</Italian>
+		<Spanish>10. Movement</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_TRAIT_MECHANIZED</Tag>
+		<English>Mechanized</English>
+		<French>M�canis�</French>
+		<German>Mechanized</German>
+		<Italian>Mechanized</Italian>
+		<Spanish>Mechanized</Spanish>
+	</TEXT>
+</Civ4GameText>

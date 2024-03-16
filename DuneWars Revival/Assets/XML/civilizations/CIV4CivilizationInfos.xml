@@ -407,7 +407,15 @@
 				<Building>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
 					<BuildingType>BUILDING_FREMEN_PALACE</BuildingType>
-				</Building>
+                </Building>
+                <Building>
+                    <BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
+                    <BuildingType>BUILDING_FREMEN_FACTORY</BuildingType>
+                </Building>
+                <Building>
+                    <BuildingClassType>BUILDINGCLASS_SPICE_REFINERY</BuildingClassType>
+                    <BuildingType>BUILDING_FREMEN_SPICE_REFINERY</BuildingType>
+                </Building>
 				<Building>
 					<BuildingClassType>BUILDINGCLASS_POLITICAL_OFFICE</BuildingClassType>
 					<BuildingType>NONE</BuildingType>
@@ -438,6 +446,10 @@
 					<UnitClassType>UNITCLASS_WORKER</UnitClassType>
 					<UnitType>UNIT_WORKER_FREMEN</UnitType>
 				</Unit>
+                <Unit>
+                    <UnitClassType>UNITCLASS_WATERSTEALER</UnitClassType>
+                    <UnitType>UNIT_WATERSTEALER</UnitType>
+                </Unit>
 				<Unit>
 					<UnitClassType>UNITCLASS_QUAD</UnitClassType>
 					<UnitType>NONE</UnitType>
@@ -496,6 +508,10 @@
 				</Unit>
 				<Unit>
 					<UnitClassType>UNITCLASS_NO_SHIP</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_SUSPENSOR_CARRIER</UnitClassType>
 					<UnitType>NONE</UnitType>
 				</Unit>
 			</Units>

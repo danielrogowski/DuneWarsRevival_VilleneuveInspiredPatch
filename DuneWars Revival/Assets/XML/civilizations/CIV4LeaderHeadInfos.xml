@@ -87,7 +87,7 @@
 			<iVassalPowerModifier>0</iVassalPowerModifier>
 			<iFreedomAppreciation>0</iFreedomAppreciation>
 			<FavoriteCivic>NONE</FavoriteCivic>
-			<FavoriteReligion>NONE</FavoriteReligion>
+			<FavoriteReligion>RELIGION_SHAIHULUD</FavoriteReligion>
 			<Traits/>
 			<Flavors/>
 			<ContactRands/>
@@ -271,8 +271,8 @@
 			<iFavoriteCivicAttitudeDivisor>10</iFavoriteCivicAttitudeDivisor>
 			<iFavoriteCivicAttitudeChangeLimit>5</iFavoriteCivicAttitudeChangeLimit>
 			<iHatedCivicAttitudeChange>-3</iHatedCivicAttitudeChange>
-			<iFavoriteCivilizationAttitudeChange>2</iFavoriteCivilizationAttitudeChange>		
-			<iHatedCivilizationAttitudeChange>-3</iHatedCivilizationAttitudeChange>
+			<iFavoriteCivilizationAttitudeChange>5</iFavoriteCivilizationAttitudeChange>		
+			<iHatedCivilizationAttitudeChange>-5</iHatedCivilizationAttitudeChange>
 			<DemandTributeAttitudeThreshold>ATTITUDE_CAUTIOUS</DemandTributeAttitudeThreshold>
 			<NoGiveHelpAttitudeThreshold>ATTITUDE_CAUTIOUS</NoGiveHelpAttitudeThreshold>
 			<TechRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</TechRefuseAttitudeThreshold>
@@ -297,7 +297,7 @@
 			<iStrictSpiceChance>2</iStrictSpiceChance>
 			<iLooseSpiceChance>15</iLooseSpiceChance>
 			<FavoriteCivilization>CIVILIZATION_FREMEN</FavoriteCivilization>
-			<HatedCivilization>CIVILIZATION_HARKONNEN</HatedCivilization>						
+			<HatedCivilization>CIVILIZATION_HARKONNEN</HatedCivilization>
 			<FavoriteReligion>RELIGION_QIZARATE</FavoriteReligion>
 			<Traits>
 				<Trait>
@@ -907,6 +907,10 @@
 			<iFreedomAppreciation>10</iFreedomAppreciation>
 			<FavoriteCivic>CIVIC_FAUFRELUCHES</FavoriteCivic>
 			<HatedCivic>CIVIC_ARRAKIS_PARADISE</HatedCivic>
+			<iFavoriteCivilizationAttitudeChange>10</iFavoriteCivilizationAttitudeChange>
+			<iHatedCivilizationAttitudeChange>-5</iHatedCivilizationAttitudeChange>
+			<FavoriteCivilization>CIVILIZATION_GESSERIT</FavoriteCivilization>
+			<HatedCivilization>CIVILIZATION_FREMEN</HatedCivilization>
 			<iStrictSpiceChance>98</iStrictSpiceChance>
 			<iLooseSpiceChance>85</iLooseSpiceChance>
 			<FavoriteReligion>RELIGION_IMPERIAL</FavoriteReligion>
@@ -931,11 +935,11 @@
 				</Flavor>
 				<Flavor>
 					<FlavorType>FLAVOR_CULTURE</FlavorType>
-					<iFlavor>5</iFlavor>
+					<iFlavor>10</iFlavor>
 				</Flavor>
 				<Flavor>
 					<FlavorType>FLAVOR_IMPERIAL</FlavorType>
-					<iFlavor>6</iFlavor>
+					<iFlavor>8</iFlavor>
 				</Flavor>				
 			</Flavors>
 			<ContactRands>
@@ -1485,8 +1489,8 @@
 			<iFavoriteCivicAttitudeDivisor>10</iFavoriteCivicAttitudeDivisor>
 			<iFavoriteCivicAttitudeChangeLimit>5</iFavoriteCivicAttitudeChangeLimit>
 			<iHatedCivicAttitudeChange>-3</iHatedCivicAttitudeChange>
-			<iFavoriteCivilizationAttitudeChange>2</iFavoriteCivilizationAttitudeChange>		
-			<iHatedCivilizationAttitudeChange>-3</iHatedCivilizationAttitudeChange>			
+			<iFavoriteCivilizationAttitudeChange>10</iFavoriteCivilizationAttitudeChange>		
+			<iHatedCivilizationAttitudeChange>-20</iHatedCivilizationAttitudeChange>			
 			<DemandTributeAttitudeThreshold>ATTITUDE_PLEASED</DemandTributeAttitudeThreshold>
 			<NoGiveHelpAttitudeThreshold>ATTITUDE_CAUTIOUS</NoGiveHelpAttitudeThreshold>
 			<TechRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</TechRefuseAttitudeThreshold>
@@ -1506,11 +1510,11 @@
 			<VassalRefuseAttitudeThreshold>ATTITUDE_PLEASED</VassalRefuseAttitudeThreshold>
 			<iVassalPowerModifier>-10</iVassalPowerModifier>
 			<iFreedomAppreciation>10</iFreedomAppreciation>
-			<FavoriteCivic>CIVIC_IMPERIAL_FEALTY</FavoriteCivic>
+			<FavoriteCivic>CIVIC_WAR_OF_ASSASSINS</FavoriteCivic>
 			<HatedCivic>CIVIC_ARRAKIS_PARADISE</HatedCivic>
 			<iStrictSpiceChance>98</iStrictSpiceChance>
 			<iLooseSpiceChance>85</iLooseSpiceChance>
-			<FavoriteCivilization>CIVILIZATION_HARKONNEN</FavoriteCivilization>
+			<FavoriteCivilization>CIVILIZATION_GESSERIT</FavoriteCivilization>
 			<HatedCivilization>CIVILIZATION_ATREIDES</HatedCivilization>				
 			<FavoriteReligion>RELIGION_IMPERIAL</FavoriteReligion>
 			<Traits>
@@ -1539,7 +1543,11 @@
 				<Flavor>
 					<FlavorType>FLAVOR_IMPERIAL</FlavorType>
 					<iFlavor>6</iFlavor>
-				</Flavor>				
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_ESPIONAGE</FlavorType>
+					<iFlavor>10</iFlavor>
+				</Flavor>
 			</Flavors>
 			<ContactRands>
 				<ContactRand>
@@ -2089,7 +2097,7 @@
 			<iFavoriteCivicAttitudeChangeLimit>3</iFavoriteCivicAttitudeChangeLimit>
 			<iHatedCivicAttitudeChange>-3</iHatedCivicAttitudeChange>
 			<iFavoriteCivilizationAttitudeChange>1</iFavoriteCivilizationAttitudeChange>		
-			<iHatedCivilizationAttitudeChange>-3</iHatedCivilizationAttitudeChange>					
+			<iHatedCivilizationAttitudeChange>-5</iHatedCivilizationAttitudeChange>					
 			<DemandTributeAttitudeThreshold>ATTITUDE_PLEASED</DemandTributeAttitudeThreshold>
 			<NoGiveHelpAttitudeThreshold>ATTITUDE_CAUTIOUS</NoGiveHelpAttitudeThreshold>
 			<TechRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</TechRefuseAttitudeThreshold>
@@ -2691,8 +2699,8 @@
 			<iFavoriteCivicAttitudeDivisor>10</iFavoriteCivicAttitudeDivisor>
 			<iFavoriteCivicAttitudeChangeLimit>7</iFavoriteCivicAttitudeChangeLimit>
 			<iHatedCivicAttitudeChange>-3</iHatedCivicAttitudeChange>
-			<iFavoriteCivilizationAttitudeChange>2</iFavoriteCivilizationAttitudeChange>		
-			<iHatedCivilizationAttitudeChange>-3</iHatedCivilizationAttitudeChange>
+			<iFavoriteCivilizationAttitudeChange>5</iFavoriteCivilizationAttitudeChange>		
+			<iHatedCivilizationAttitudeChange>-10</iHatedCivilizationAttitudeChange>
 			<DemandTributeAttitudeThreshold>ATTITUDE_CAUTIOUS</DemandTributeAttitudeThreshold>
 			<NoGiveHelpAttitudeThreshold>ATTITUDE_CAUTIOUS</NoGiveHelpAttitudeThreshold>
 			<TechRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</TechRefuseAttitudeThreshold>
@@ -2721,7 +2729,7 @@
 			<FavoriteReligion>RELIGION_MAHDI</FavoriteReligion>
 			<Traits>
 				<Trait>
-					<TraitType>TRAIT_PHILOSOPHICAL</TraitType>
+					<TraitType>TRAIT_CHARISMATIC</TraitType>
 					<bTrait>1</bTrait>
 				</Trait>
 				<Trait>
@@ -3319,6 +3327,10 @@
 			<FavoriteCivic>CIVIC_WAR_OF_ASSASSINS</FavoriteCivic>
 			<iStrictSpiceChance>60</iStrictSpiceChance>
 			<iLooseSpiceChance>50</iLooseSpiceChance>
+			<iFavoriteCivilizationAttitudeChange>3</iFavoriteCivilizationAttitudeChange>
+			<iHatedCivilizationAttitudeChange>-5</iHatedCivilizationAttitudeChange>
+			<FavoriteCivilization>CIVILIZATION_IX</FavoriteCivilization>
+			<HatedCivilization>CIVILIZATION_GESSERIT</HatedCivilization>
 			<FavoriteReligion>RELIGION_TLEILAXU</FavoriteReligion>
 			<Traits>
 				<Trait>
@@ -3921,8 +3933,13 @@
 			<VassalRefuseAttitudeThreshold>ATTITUDE_PLEASED</VassalRefuseAttitudeThreshold>
 			<iVassalPowerModifier>-20</iVassalPowerModifier>
 			<iFreedomAppreciation>10</iFreedomAppreciation>
+			<FavoriteCivic>CIVIC_THEOCRACY</FavoriteCivic>
 			<iStrictSpiceChance>50</iStrictSpiceChance>
 			<iLooseSpiceChance>50</iLooseSpiceChance>
+			<iFavoriteCivilizationAttitudeChange>3</iFavoriteCivilizationAttitudeChange>
+			<iHatedCivilizationAttitudeChange>-5</iHatedCivilizationAttitudeChange>
+			<FavoriteCivilization>CIVILIZATION_HARKONNEN</FavoriteCivilization>
+			<HatedCivilization>CIVILIZATION_GESSERIT</HatedCivilization>
 			<FavoriteReligion>RELIGION_TLEILAXU</FavoriteReligion>
 			<Traits>
 				<Trait>
@@ -4526,6 +4543,10 @@
 			<HatedCivic>CIVIC_SLAVERY</HatedCivic>
 			<iStrictSpiceChance>80</iStrictSpiceChance>
 			<iLooseSpiceChance>65</iLooseSpiceChance>
+			<iFavoriteCivilizationAttitudeChange>10</iFavoriteCivilizationAttitudeChange>
+			<iHatedCivilizationAttitudeChange>-10</iHatedCivilizationAttitudeChange>
+			<FavoriteCivilization>CIVILIZATION_CORRINO</FavoriteCivilization>
+			<HatedCivilization>CIVILIZATION_TLEILAX</HatedCivilization>
 			<FavoriteReligion>NONE</FavoriteReligion>
 			<Traits>
 				<Trait>
@@ -5110,8 +5131,8 @@
 			<iFavoriteCivicAttitudeDivisor>10</iFavoriteCivicAttitudeDivisor>
 			<iFavoriteCivicAttitudeChangeLimit>3</iFavoriteCivicAttitudeChangeLimit>
 			<iHatedCivicAttitudeChange>-3</iHatedCivicAttitudeChange>
-			<iFavoriteCivilizationAttitudeChange>2</iFavoriteCivilizationAttitudeChange>		
-			<iHatedCivilizationAttitudeChange>-3</iHatedCivilizationAttitudeChange>
+			<iFavoriteCivilizationAttitudeChange>3</iFavoriteCivilizationAttitudeChange>
+			<iHatedCivilizationAttitudeChange>-20</iHatedCivilizationAttitudeChange>
 			<DemandTributeAttitudeThreshold>ATTITUDE_PLEASED</DemandTributeAttitudeThreshold>
 			<NoGiveHelpAttitudeThreshold>ATTITUDE_CAUTIOUS</NoGiveHelpAttitudeThreshold>
 			<TechRefuseAttitudeThreshold>ATTITUDE_FURIOUS</TechRefuseAttitudeThreshold>
@@ -5136,7 +5157,7 @@
 			<iStrictSpiceChance>98</iStrictSpiceChance>
 			<iLooseSpiceChance>85</iLooseSpiceChance>
 			<FavoriteCivilization>CIVILIZATION_CORRINO</FavoriteCivilization>
-			<HatedCivilization>CIVILIZATION_ATREIDES</HatedCivilization>
+			<HatedCivilization>CIVILIZATION_FREMEN</HatedCivilization>
 			<FavoriteReligion>NONE</FavoriteReligion>
 			<Traits>
 				<Trait>
@@ -5709,8 +5730,8 @@
 			<iFavoriteCivicAttitudeDivisor>10</iFavoriteCivicAttitudeDivisor>
 			<iFavoriteCivicAttitudeChangeLimit>3</iFavoriteCivicAttitudeChangeLimit>
 			<iHatedCivicAttitudeChange>-3</iHatedCivicAttitudeChange>
-			<iFavoriteCivilizationAttitudeChange>2</iFavoriteCivilizationAttitudeChange>		
-			<iHatedCivilizationAttitudeChange>-3</iHatedCivilizationAttitudeChange>			
+			<iFavoriteCivilizationAttitudeChange>3</iFavoriteCivilizationAttitudeChange>		
+			<iHatedCivilizationAttitudeChange>-20</iHatedCivilizationAttitudeChange>			
 			<DemandTributeAttitudeThreshold>ATTITUDE_PLEASED</DemandTributeAttitudeThreshold>
 			<NoGiveHelpAttitudeThreshold>ATTITUDE_CAUTIOUS</NoGiveHelpAttitudeThreshold>
 			<TechRefuseAttitudeThreshold>ATTITUDE_FURIOUS</TechRefuseAttitudeThreshold>
@@ -5736,7 +5757,7 @@
 			<iLooseSpiceChance>85</iLooseSpiceChance>
 			<FavoriteCivilization>CIVILIZATION_CORRINO</FavoriteCivilization>
 			<HatedCivilization>CIVILIZATION_ATREIDES</HatedCivilization>				
-			<FavoriteReligion>NONE</FavoriteReligion>
+			<FavoriteReligion>RELIGION_IMPERIAL</FavoriteReligion>
 			<Traits>
 				<Trait>
 					<TraitType>TRAIT_AGGRESSIVE</TraitType>
@@ -6308,8 +6329,8 @@
 			<iFavoriteCivicAttitudeDivisor>10</iFavoriteCivicAttitudeDivisor>
 			<iFavoriteCivicAttitudeChangeLimit>5</iFavoriteCivicAttitudeChangeLimit>
 			<iHatedCivicAttitudeChange>-3</iHatedCivicAttitudeChange>
-			<iFavoriteCivilizationAttitudeChange>2</iFavoriteCivilizationAttitudeChange>		
-			<iHatedCivilizationAttitudeChange>-3</iHatedCivilizationAttitudeChange>	
+			<iFavoriteCivilizationAttitudeChange>2</iFavoriteCivilizationAttitudeChange>
+			<iHatedCivilizationAttitudeChange>-10</iHatedCivilizationAttitudeChange>
 			<DemandTributeAttitudeThreshold>ATTITUDE_FRIENDLY</DemandTributeAttitudeThreshold>
 			<NoGiveHelpAttitudeThreshold>ATTITUDE_CAUTIOUS</NoGiveHelpAttitudeThreshold>
 			<TechRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</TechRefuseAttitudeThreshold>
@@ -6334,7 +6355,7 @@
 			<iStrictSpiceChance>98</iStrictSpiceChance>
 			<iLooseSpiceChance>85</iLooseSpiceChance>
 			<FavoriteCivilization>CIVILIZATION_HARKONNEN</FavoriteCivilization>
-			<HatedCivilization>CIVILIZATION_ATREIDES</HatedCivilization>				
+			<HatedCivilization>CIVILIZATION_ATREIDES</HatedCivilization>
 			<FavoriteReligion>RELIGION_IMPERIAL</FavoriteReligion>
 			<Traits>
 				<Trait>
@@ -6349,7 +6370,7 @@
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
-					<iFlavor>5</iFlavor>
+					<iFlavor>10</iFlavor>
 				</Flavor>
 				<Flavor>
 					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -6361,7 +6382,7 @@
 				</Flavor>
 				<Flavor>
 					<FlavorType>FLAVOR_ESPIONAGE</FlavorType>
-					<iFlavor>10</iFlavor>
+					<iFlavor>5</iFlavor>
 				</Flavor>				
 				<Flavor>
 					<FlavorType>FLAVOR_GROWTH</FlavorType>
@@ -6915,8 +6936,8 @@
 			<iFavoriteCivicAttitudeDivisor>10</iFavoriteCivicAttitudeDivisor>
 			<iFavoriteCivicAttitudeChangeLimit>4</iFavoriteCivicAttitudeChangeLimit>
 			<iHatedCivicAttitudeChange>-3</iHatedCivicAttitudeChange>
-			<iFavoriteCivilizationAttitudeChange>2</iFavoriteCivilizationAttitudeChange>							
-			<iHatedCivilizationAttitudeChange>-3</iHatedCivilizationAttitudeChange>							
+			<iFavoriteCivilizationAttitudeChange>3</iFavoriteCivilizationAttitudeChange>							
+			<iHatedCivilizationAttitudeChange>-20</iHatedCivilizationAttitudeChange>							
 			<DemandTributeAttitudeThreshold>ATTITUDE_PLEASED</DemandTributeAttitudeThreshold>
 			<NoGiveHelpAttitudeThreshold>ATTITUDE_CAUTIOUS</NoGiveHelpAttitudeThreshold>
 			<TechRefuseAttitudeThreshold>ATTITUDE_FURIOUS</TechRefuseAttitudeThreshold>
@@ -6942,7 +6963,7 @@
 			<iLooseSpiceChance>85</iLooseSpiceChance>
 			<FavoriteCivilization>CIVILIZATION_CORRINO</FavoriteCivilization>
 			<HatedCivilization>CIVILIZATION_ATREIDES</HatedCivilization>			
-			<FavoriteReligion>NONE</FavoriteReligion>
+			<FavoriteReligion>RELIGION_IMPERIAL</FavoriteReligion>
 			<Traits>
 				<Trait>
 					<TraitType>TRAIT_AGGRESSIVE</TraitType>
@@ -7541,6 +7562,10 @@
 			<HatedCivic>CIVIC_ARRAKIS_PARADISE</HatedCivic>
 			<iStrictSpiceChance>90</iStrictSpiceChance>
 			<iLooseSpiceChance>75</iLooseSpiceChance>
+			<iFavoriteCivilizationAttitudeChange>2</iFavoriteCivilizationAttitudeChange>
+			<iHatedCivilizationAttitudeChange>-10</iHatedCivilizationAttitudeChange>
+			<FavoriteCivilization>CIVILIZATION_CORRINO</FavoriteCivilization>
+			<HatedCivilization>CIVILIZATION_TLEILAX</HatedCivilization>
 			<FavoriteReligion>NONE</FavoriteReligion>
 			<Traits>
 				<Trait>
@@ -8129,8 +8154,8 @@
 			<iFavoriteCivicAttitudeDivisor>10</iFavoriteCivicAttitudeDivisor>
 			<iFavoriteCivicAttitudeChangeLimit>6</iFavoriteCivicAttitudeChangeLimit>
 			<iHatedCivicAttitudeChange>-3</iHatedCivicAttitudeChange>
-			<iFavoriteCivilizationAttitudeChange>2</iFavoriteCivilizationAttitudeChange>		
-			<iHatedCivilizationAttitudeChange>-3</iHatedCivilizationAttitudeChange>				
+			<iFavoriteCivilizationAttitudeChange>3</iFavoriteCivilizationAttitudeChange>		
+			<iHatedCivilizationAttitudeChange>-20</iHatedCivilizationAttitudeChange>				
 			<DemandTributeAttitudeThreshold>ATTITUDE_CAUTIOUS</DemandTributeAttitudeThreshold>
 			<NoGiveHelpAttitudeThreshold>ATTITUDE_CAUTIOUS</NoGiveHelpAttitudeThreshold>
 			<TechRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</TechRefuseAttitudeThreshold>
@@ -8156,7 +8181,7 @@
 			<iLooseSpiceChance>15</iLooseSpiceChance>
 			<FavoriteCivilization>CIVILIZATION_ATREIDES</FavoriteCivilization>
 			<HatedCivilization>CIVILIZATION_HARKONNEN</HatedCivilization>					
-			<FavoriteReligion>RELIGION_MAHDI</FavoriteReligion>
+			<FavoriteReligion>RELIGION_SHAIHULUD</FavoriteReligion>
 			<Traits>
 				<Trait>
 					<TraitType>TRAIT_AGGRESSIVE</TraitType>
@@ -8736,8 +8761,8 @@
 			<iFavoriteCivicAttitudeDivisor>10</iFavoriteCivicAttitudeDivisor>
 			<iFavoriteCivicAttitudeChangeLimit>7</iFavoriteCivicAttitudeChangeLimit>
 			<iHatedCivicAttitudeChange>-3</iHatedCivicAttitudeChange>
-			<iFavoriteCivilizationAttitudeChange>2</iFavoriteCivilizationAttitudeChange>		
-			<iHatedCivilizationAttitudeChange>-3</iHatedCivilizationAttitudeChange>				
+			<iFavoriteCivilizationAttitudeChange>3</iFavoriteCivilizationAttitudeChange>		
+			<iHatedCivilizationAttitudeChange>-10</iHatedCivilizationAttitudeChange>				
 			<DemandTributeAttitudeThreshold>ATTITUDE_CAUTIOUS</DemandTributeAttitudeThreshold>
 			<NoGiveHelpAttitudeThreshold>ATTITUDE_CAUTIOUS</NoGiveHelpAttitudeThreshold>
 			<TechRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</TechRefuseAttitudeThreshold>
@@ -9343,8 +9368,8 @@
 			<iFavoriteCivicAttitudeDivisor>10</iFavoriteCivicAttitudeDivisor>
 			<iFavoriteCivicAttitudeChangeLimit>4</iFavoriteCivicAttitudeChangeLimit>
 			<iHatedCivicAttitudeChange>-3</iHatedCivicAttitudeChange>
-			<iFavoriteCivilizationAttitudeChange>2</iFavoriteCivilizationAttitudeChange>		
-			<iHatedCivilizationAttitudeChange>-3</iHatedCivilizationAttitudeChange>					
+			<iFavoriteCivilizationAttitudeChange>3</iFavoriteCivilizationAttitudeChange>		
+			<iHatedCivilizationAttitudeChange>-20</iHatedCivilizationAttitudeChange>					
 			<DemandTributeAttitudeThreshold>ATTITUDE_CAUTIOUS</DemandTributeAttitudeThreshold>
 			<NoGiveHelpAttitudeThreshold>ATTITUDE_CAUTIOUS</NoGiveHelpAttitudeThreshold>
 			<TechRefuseAttitudeThreshold>ATTITUDE_ANNOYED</TechRefuseAttitudeThreshold>
@@ -9977,9 +10002,11 @@
 			<iVassalPowerModifier>0</iVassalPowerModifier>
 			<iFreedomAppreciation>10</iFreedomAppreciation>
 			<FavoriteCivic>CIVIC_PLANNED_ECONOMY</FavoriteCivic>
-			<iHatedCivilizationAttitudeChange>-2</iHatedCivilizationAttitudeChange>	
 			<iStrictSpiceChance>95</iStrictSpiceChance>
 			<iLooseSpiceChance>80</iLooseSpiceChance>
+			<iFavoriteCivilizationAttitudeChange>5</iFavoriteCivilizationAttitudeChange>
+			<iHatedCivilizationAttitudeChange>-5</iHatedCivilizationAttitudeChange>
+			<FavoriteCivilization>CIVILIZATION_ORDOS</FavoriteCivilization>
 			<HatedCivilization>CIVILIZATION_RICHESE</HatedCivilization>
 			<FavoriteReligion>RELIGION_TECHNOCRAT</FavoriteReligion>
 			<Traits>
@@ -10582,7 +10609,9 @@
 			<FavoriteCivic>CIVIC_PLANNED_ECONOMY</FavoriteCivic>
 			<iStrictSpiceChance>95</iStrictSpiceChance>
 			<iLooseSpiceChance>80</iLooseSpiceChance>
-			<iHatedCivilizationAttitudeChange>-2</iHatedCivilizationAttitudeChange>	
+			<iFavoriteCivilizationAttitudeChange>5</iFavoriteCivilizationAttitudeChange>
+			<iHatedCivilizationAttitudeChange>-5</iHatedCivilizationAttitudeChange>
+			<FavoriteCivilization>CIVILIZATION_ORDOS</FavoriteCivilization>
 			<HatedCivilization>CIVILIZATION_RICHESE</HatedCivilization>
 			<FavoriteReligion>RELIGION_TECHNOCRAT</FavoriteReligion>
 			<Traits>
@@ -11185,6 +11214,10 @@
 			<FavoriteCivic>CIVIC_WAR_OF_ASSASSINS</FavoriteCivic>
 			<iStrictSpiceChance>85</iStrictSpiceChance>
 			<iLooseSpiceChance>70</iLooseSpiceChance>
+			<iFavoriteCivilizationAttitudeChange>5</iFavoriteCivilizationAttitudeChange>
+			<iHatedCivilizationAttitudeChange>-5</iHatedCivilizationAttitudeChange>
+			<FavoriteCivilization>CIVILIZATION_IX</FavoriteCivilization>
+			<HatedCivilization>CIVILIZATION_ECAZ</HatedCivilization>
 			<FavoriteReligion>RELIGION_TECHNOCRAT</FavoriteReligion>
 			<Traits>
 				<Trait>
@@ -11798,6 +11831,10 @@
 			<FavoriteCivic>CIVIC_FREE_TRADE</FavoriteCivic>
 			<iStrictSpiceChance>90</iStrictSpiceChance>
 			<iLooseSpiceChance>70</iLooseSpiceChance>
+			<iFavoriteCivilizationAttitudeChange>5</iFavoriteCivilizationAttitudeChange>
+			<iHatedCivilizationAttitudeChange>-5</iHatedCivilizationAttitudeChange>
+			<FavoriteCivilization>CIVILIZATION_IX</FavoriteCivilization>
+			<HatedCivilization>CIVILIZATION_GESSERIT</HatedCivilization>
 			<FavoriteReligion>RELIGION_TECHNOCRAT</FavoriteReligion>
 			<Traits>
 				<Trait>
@@ -12409,9 +12446,12 @@
 			<iVassalPowerModifier>0</iVassalPowerModifier>
 			<iFreedomAppreciation>10</iFreedomAppreciation>
 			<FavoriteCivic>CIVIC_FREE_TRADE</FavoriteCivic>
+			<HatedCivic>CIVIC_IMPERIUM</HatedCivic>
 			<iStrictSpiceChance>97</iStrictSpiceChance>
 			<iLooseSpiceChance>80</iLooseSpiceChance>
-			<FavoriteReligion>NONE</FavoriteReligion>
+			<FavoriteCivilization>CIVILIZATION_GESSERIT</FavoriteCivilization>
+			<HatedCivilization>CIVILIZATION_ORDOS</HatedCivilization>
+			<FavoriteReligion>RELIGION_CHOAM</FavoriteReligion>
 			<Traits>
 				<Trait>
 					<TraitType>TRAIT_INDUSTRIOUS</TraitType>
@@ -13010,8 +13050,13 @@
 			<iVassalPowerModifier>0</iVassalPowerModifier>
 			<iFreedomAppreciation>10</iFreedomAppreciation>
 			<FavoriteCivic>CIVIC_FREE_TRADE</FavoriteCivic>
+			<HatedCivic>CIVIC_IMPERIAL_FEALTY</HatedCivic>
 			<iStrictSpiceChance>97</iStrictSpiceChance>
 			<iLooseSpiceChance>80</iLooseSpiceChance>
+			<iFavoriteCivilizationAttitudeChange>3</iFavoriteCivilizationAttitudeChange>
+			<iHatedCivilizationAttitudeChange>-5</iHatedCivilizationAttitudeChange>
+			<FavoriteCivilization>CIVILIZATION_GESSERIT</FavoriteCivilization>
+			<HatedCivilization>CIVILIZATION_ORDOS</HatedCivilization>
 			<FavoriteReligion>RELIGION_CHOAM</FavoriteReligion>
 			<Traits>
 				<Trait>
@@ -13592,7 +13637,7 @@
 			<iFavoriteCivicAttitudeDivisor>20</iFavoriteCivicAttitudeDivisor>
 			<iFavoriteCivicAttitudeChangeLimit>3</iFavoriteCivicAttitudeChangeLimit>
 			<iHatedCivicAttitudeChange>-1</iHatedCivicAttitudeChange>
-			<iHatedCivilizationAttitudeChange>-2</iHatedCivilizationAttitudeChange>	
+			<iHatedCivilizationAttitudeChange>-6</iHatedCivilizationAttitudeChange>	
 			<DemandTributeAttitudeThreshold>ATTITUDE_CAUTIOUS</DemandTributeAttitudeThreshold>
 			<NoGiveHelpAttitudeThreshold>ATTITUDE_CAUTIOUS</NoGiveHelpAttitudeThreshold>
 			<TechRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</TechRefuseAttitudeThreshold>
@@ -13616,7 +13661,9 @@
 			<HatedCivic></HatedCivic>
 			<iStrictSpiceChance>80</iStrictSpiceChance>
 			<iLooseSpiceChance>75</iLooseSpiceChance>
-			<FavoriteCivilization></FavoriteCivilization>
+			<iFavoriteCivilizationAttitudeChange>3</iFavoriteCivilizationAttitudeChange>
+			<iHatedCivilizationAttitudeChange>-5</iHatedCivilizationAttitudeChange>
+			<FavoriteCivilization>CIVILIZATION_ATREIDES</FavoriteCivilization>
 			<HatedCivilization>CIVILIZATION_IX</HatedCivilization>				
 			<FavoriteReligion>RELIGION_TECHNOCRAT</FavoriteReligion>
 			<Traits>
@@ -14194,7 +14241,6 @@
 			<iFavoriteCivicAttitudeDivisor>20</iFavoriteCivicAttitudeDivisor>
 			<iFavoriteCivicAttitudeChangeLimit>3</iFavoriteCivicAttitudeChangeLimit>
 			<iHatedCivicAttitudeChange>-1</iHatedCivicAttitudeChange>
-			<iHatedCivilizationAttitudeChange>-2</iHatedCivilizationAttitudeChange>	
 			<DemandTributeAttitudeThreshold>ATTITUDE_PLEASED</DemandTributeAttitudeThreshold>
 			<NoGiveHelpAttitudeThreshold>ATTITUDE_PLEASED</NoGiveHelpAttitudeThreshold>
 			<TechRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</TechRefuseAttitudeThreshold>
@@ -14218,9 +14264,11 @@
 			<HatedCivic></HatedCivic>
 			<iStrictSpiceChance>70</iStrictSpiceChance>
 			<iLooseSpiceChance>60</iLooseSpiceChance>
-			<FavoriteCivilization></FavoriteCivilization>
+			<iFavoriteCivilizationAttitudeChange>10</iFavoriteCivilizationAttitudeChange>
+			<iHatedCivilizationAttitudeChange>-5</iHatedCivilizationAttitudeChange>
+			<FavoriteCivilization>CIVILIZATION_GESSERIT</FavoriteCivilization>
 			<HatedCivilization>CIVILIZATION_IX</HatedCivilization>				
-			<FavoriteReligion></FavoriteReligion>
+			<FavoriteReligion>NONE</FavoriteReligion>
 			<Traits>
 				<Trait>
 					<TraitType>TRAIT_TECHMAN</TraitType>
@@ -14817,10 +14865,12 @@
 			<FavoriteCivic>CIVIC_THEOCRACY</FavoriteCivic>
 			<iStrictSpiceChance>50</iStrictSpiceChance>
 			<iLooseSpiceChance>50</iLooseSpiceChance>
+			<iHatedCivilizationAttitudeChange>-10</iHatedCivilizationAttitudeChange>
+			<HatedCivilization>CIVILIZATION_GESSERIT</HatedCivilization>
 			<FavoriteReligion>RELIGION_TLEILAXU</FavoriteReligion>
 			<Traits>
 				<Trait>
-					<TraitType>TRAIT_SPIRITUAL</TraitType>
+					<TraitType>TRAIT_PHILOSOPHICAL</TraitType>
 					<bTrait>1</bTrait>
 				</Trait>
 				<Trait>
@@ -15397,8 +15447,8 @@
 			<iFavoriteCivicAttitudeDivisor>10</iFavoriteCivicAttitudeDivisor>
 			<iFavoriteCivicAttitudeChangeLimit>3</iFavoriteCivicAttitudeChangeLimit>
 			<iHatedCivicAttitudeChange>-3</iHatedCivicAttitudeChange>
-			<iFavoriteCivilizationAttitudeChange>1</iFavoriteCivilizationAttitudeChange>		
-			<iHatedCivilizationAttitudeChange>-3</iHatedCivilizationAttitudeChange>					
+			<iFavoriteCivilizationAttitudeChange>5</iFavoriteCivilizationAttitudeChange>		
+			<iHatedCivilizationAttitudeChange>-20</iHatedCivilizationAttitudeChange>					
 			<DemandTributeAttitudeThreshold>ATTITUDE_PLEASED</DemandTributeAttitudeThreshold>
 			<NoGiveHelpAttitudeThreshold>ATTITUDE_CAUTIOUS</NoGiveHelpAttitudeThreshold>
 			<TechRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</TechRefuseAttitudeThreshold>
@@ -15423,6 +15473,7 @@
 			<iLooseSpiceChance>35</iLooseSpiceChance>
 			<FavoriteCivilization>CIVILIZATION_FREMEN</FavoriteCivilization>
 			<HatedCivilization>CIVILIZATION_HARKONNEN</HatedCivilization>
+			<FavoriteReligion>RELIGION_IMPERIAL</FavoriteReligion>
 			<Traits>
 				<Trait>
 					<TraitType>TRAIT_ORGANIZED</TraitType>
@@ -15994,7 +16045,7 @@
 			<iFavoriteCivicAttitudeDivisor>10</iFavoriteCivicAttitudeDivisor>
 			<iFavoriteCivicAttitudeChangeLimit>3</iFavoriteCivicAttitudeChangeLimit>
 			<iHatedCivicAttitudeChange>-3</iHatedCivicAttitudeChange>
-			<iHatedCivilizationAttitudeChange>-3</iHatedCivilizationAttitudeChange>					
+			<iHatedCivilizationAttitudeChange>-20</iHatedCivilizationAttitudeChange>					
 			<DemandTributeAttitudeThreshold>ATTITUDE_PLEASED</DemandTributeAttitudeThreshold>
 			<NoGiveHelpAttitudeThreshold>ATTITUDE_CAUTIOUS</NoGiveHelpAttitudeThreshold>
 			<TechRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</TechRefuseAttitudeThreshold>
@@ -16615,12 +16666,12 @@
 			<iFreedomAppreciation>10</iFreedomAppreciation>
 			<FavoriteCivic>CIVIC_MERITOCRACY</FavoriteCivic>
 			<HatedCivic>CIVIC_SLAVERY</HatedCivic>
-			<iFavoriteCivilizationAttitudeChange>2</iFavoriteCivilizationAttitudeChange>		
-			<iHatedCivilizationAttitudeChange>-3</iHatedCivilizationAttitudeChange>		
 			<iStrictSpiceChance>90</iStrictSpiceChance>
 			<iLooseSpiceChance>75</iLooseSpiceChance>
+			<iFavoriteCivilizationAttitudeChange>10</iFavoriteCivilizationAttitudeChange>
+			<iHatedCivilizationAttitudeChange>-20</iHatedCivilizationAttitudeChange>
 			<FavoriteCivilization>CIVILIZATION_ATREIDES</FavoriteCivilization>
-			<HatedCivilization>CIVILIZATION_HARKONNEN</HatedCivilization>					
+			<HatedCivilization>CIVILIZATION_HARKONNEN</HatedCivilization>
 			<FavoriteReligion>NONE</FavoriteReligion>
 			<Traits>
 				<Trait>
@@ -17147,7 +17198,7 @@
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>
-		<LeaderHeadInfo>
+<LeaderHeadInfo>
 			<Type>LEADER_CHANI</Type>
 			<Description>TXT_KEY_LEADER_CHANI</Description>
 			<Civilopedia>TXT_KEY_LEADER_CHANI_PEDIA</Civilopedia>
@@ -17208,9 +17259,9 @@
 			<iFavoriteCivicAttitudeChange>1</iFavoriteCivicAttitudeChange>
 			<iFavoriteCivicAttitudeDivisor>10</iFavoriteCivicAttitudeDivisor>
 			<iFavoriteCivicAttitudeChangeLimit>6</iFavoriteCivicAttitudeChangeLimit>
-			<iHatedCivicAttitudeChange>-3</iHatedCivicAttitudeChange>
-			<iFavoriteCivilizationAttitudeChange>2</iFavoriteCivilizationAttitudeChange>		
-			<iHatedCivilizationAttitudeChange>-3</iHatedCivilizationAttitudeChange>				
+			<iHatedCivicAttitudeChange>-10</iHatedCivicAttitudeChange>
+			<iFavoriteCivilizationAttitudeChange>3</iFavoriteCivilizationAttitudeChange>		
+			<iHatedCivilizationAttitudeChange>-20</iHatedCivilizationAttitudeChange>				
 			<DemandTributeAttitudeThreshold>ATTITUDE_CAUTIOUS</DemandTributeAttitudeThreshold>
 			<NoGiveHelpAttitudeThreshold>ATTITUDE_CAUTIOUS</NoGiveHelpAttitudeThreshold>
 			<TechRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</TechRefuseAttitudeThreshold>
@@ -17235,11 +17286,11 @@
 			<iStrictSpiceChance>2</iStrictSpiceChance>
 			<iLooseSpiceChance>15</iLooseSpiceChance>
 			<FavoriteCivilization>CIVILIZATION_ATREIDES</FavoriteCivilization>
-			<HatedCivilization>CIVILIZATION_CORRINO</HatedCivilization>					
-			<FavoriteReligion>RELIGION_MAHDI</FavoriteReligion>
+			<HatedCivilization>CIVILIZATION_HARKONNEN</HatedCivilization>					
+			<FavoriteReligion>RELIGION_SHAIHULUD</FavoriteReligion>
 			<Traits>
 				<Trait>
-					<TraitType>TRAIT_ORGANIZED</TraitType>
+					<TraitType>TRAIT_CHARISMATIC</TraitType>
 					<bTrait>1</bTrait>
 				</Trait>
 				<Trait>

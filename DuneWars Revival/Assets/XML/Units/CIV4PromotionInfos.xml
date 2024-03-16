@@ -11,7 +11,7 @@
 	<PromotionInfos>
 		<PromotionInfo>
 			<Type>PROMOTION_FACE_DANCER_FIGHTER</Type>
-			<Description>Face Dancer Combatant</Description>	
+			<Description>Face Dancer Fighter</Description>	
 			<Help>TXT_KEY_FACE_DANCER_FIGHTER_HELP</Help>
 			<Sound>AS2D_PING</Sound>
 			<PrereqCivilizations> 
@@ -523,7 +523,8 @@
 			<Description>TXT_KEY_PROMOTION_WATER_INSECT</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<PrereqCivilizations> 
-				<PrereqCivilization>CIVILIZATION_BARBARIAN</PrereqCivilization>
+                <PrereqCivilization>CIVILIZATION_BARBARIAN</PrereqCivilization>
+                <PrereqCivilization>CIVILIZATION_FREMEN</PrereqCivilization>
 			</PrereqCivilizations>	
 			<bCannotAcquire>1</bCannotAcquire>
 			<CityBonuses>
@@ -532,7 +533,7 @@
 					<bApplyRival>1</bApplyRival>
 					<fDiplo>-0.1</fDiplo>
 					<fFood>-2</fFood>
-					<iBonusRange>3</iBonusRange>
+					<iBonusRange>1</iBonusRange>
 				</CityBonus>
 			</CityBonuses>
 			<UnitCombats>
@@ -632,7 +633,7 @@
 			<iFriendlyHealChange>0</iFriendlyHealChange>
 			<iSameTileHealChange>0</iSameTileHealChange>
 			<iAdjacentTileHealChange>0</iAdjacentTileHealChange>
-			<iCombatPercent>10</iCombatPercent>
+			<iCombatPercent>-10</iCombatPercent>
 			<iCityAttack>0</iCityAttack>
 			<iCityDefense>0</iCityDefense>
 			<iHillsAttack>0</iHillsAttack>
@@ -874,9 +875,13 @@
 			<TechPrereq>TECH_SANDWORMS</TechPrereq>
 			<BonusPrereq>BONUS_WATER_DEBT</BonusPrereq>
 			<PromotionExcludes>
+        <!-- danielrogowski had this prior to VIP 5.5 -->
+				<!--Promotion>PROMOTION_SANDWORKER</Promotion-->
 				<Promotion>PROMOTION_STILLSUIT</Promotion>
 			</PromotionExcludes>
 			<PromotionOverwrites>
+        <!-- danielrogowski had this prior to VIP 5.5 -->
+				<!--Promotion>PROMOTION_SANDWORKER</Promotion-->
 				<Promotion>PROMOTION_STILLSUIT</Promotion>
 			</PromotionOverwrites>
 			<bCanMoveAllTerrain>1</bCanMoveAllTerrain>
@@ -4975,7 +4980,7 @@
 			<Description>TXT_KEY_PROMOTION_STEALTH2</Description>
 			<Sound>AS2D_PING</Sound>
 			<PromotionPrereqOr1>PROMOTION_STEALTH1</PromotionPrereqOr1>
-			<iEvasionChange>20</iEvasionChange>
+			<iEvasionChange>25</iEvasionChange>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_SPY</UnitCombatType>
@@ -4989,7 +4994,7 @@
 			<Description>TXT_KEY_PROMOTION_STEALTH3</Description>
 			<Sound>AS2D_PING</Sound>
 			<PromotionPrereqOr1>PROMOTION_STEALTH2</PromotionPrereqOr1>
-			<iEvasionChange>15</iEvasionChange>
+			<iEvasionChange>25</iEvasionChange>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_SPY</UnitCombatType>
@@ -7315,6 +7320,7 @@
 			<TechPrereq>TECH_STILLSUITS</TechPrereq>
 			<FreePromotionTech>TECH_STILLSUITS</FreePromotionTech>
 			<PromotionExcludes>
+				<!-- danielrogowski had this commented; VIP 5.5 added it (again?) -->
 				<Promotion>PROMOTION_SANDRIDER</Promotion>
 			</PromotionExcludes>
 		    <bAutoAcquire>1</bAutoAcquire>

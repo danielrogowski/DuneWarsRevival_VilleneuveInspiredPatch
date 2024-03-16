@@ -1107,18 +1107,26 @@
                     <iDiscoverRand>0</iDiscoverRand>
                     <YieldChanges>
                         <iYieldChange>0</iYieldChange>
-                        <iYieldChange>0</iYieldChange>
-                        <iYieldChange>3</iYieldChange>
+						<iYieldChange>1</iYieldChange>
+						<iYieldChange>2</iYieldChange>
                     </YieldChanges>
                 </BonusTypeStruct>
             </BonusTypeStructs>
             <ImprovementPillage/>
             <ImprovementUpgrade/>
             <TechYieldChanges>
-            </TechYieldChanges>
-            <RouteYieldChanges/>
-            <bGraphicalOnly>0</bGraphicalOnly>
-        </ImprovementInfo>
+				<TechYieldChange>
+					<PrereqTech>TECH_OFFWORLD_TRADE</PrereqTech>
+					<TechYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>4</iYield>
+					</TechYields>
+				</TechYieldChange>
+			</TechYieldChanges>
+			<RouteYieldChanges/>
+			<bGraphicalOnly>0</bGraphicalOnly>
+		</ImprovementInfo>
         <ImprovementInfo>
             <Type>IMPROVEMENT_COTTAGE1</Type>
             <Description>Dwelling</Description>

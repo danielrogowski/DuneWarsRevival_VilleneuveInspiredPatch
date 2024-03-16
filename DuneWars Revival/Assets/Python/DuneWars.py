@@ -441,6 +441,8 @@ def getWidgetHelp(argsList):
 
     return u""
 
+def cannotDoCivic(argsList):
+	return DuneWarsInst.cannotDoCivic(argsList)
 
 # Entry points from CvRandomEventsInterface.py
 
@@ -512,6 +514,12 @@ def SpiceVictoryGetPercentage():
 def SpiceVictoryPlayer(iTeam):
     return DuneWarsInst.SpiceVictoryPlayer(iTeam)
 
+# Entry points from CvEventManager
+def offWorldTrade(iPlayer):
+	DuneWarsInst.offWorldTrade(iPlayer)
+
+def choamHq():
+	DuneWarsInst.choamHq()
 
 class DuneWars:
     ### PUBLIC ENTRY POINTS
@@ -883,6 +891,12 @@ class DuneWars:
         self.iUGhola = self.GetCheckInfo('UNIT_GHOLA')
         self.iVTerra = self.GetCheckInfo("VICTORY_TERRAFORMING")
         self.iVSpice = self.GetCheckInfo("VICTORY_SPICE")
+        self.iOffworldTrade = self.GetCheckInfo("TECH_OFFWORLD_TRADE")
+        self.iSpiceTrade = self.GetCheckInfo("BUILDING_SPICE_OFFWORLD_TRADE")
+        self.iSpiceTradeFremen = self.GetCheckInfo("BUILDING_FREMEN_SPICE_OFFWORLD_TRADE")
+        self.iChoamShrine = self.GetCheckInfo("BUILDING_LANDSRAAD_SHRINE")
+        self.iChoamShrineClass = self.GetCheckInfo("BUILDINGCLASS_LANDSRAAD_SHRINE")
+        self.iChoam = self.GetCheckInfo("RELIGION_CHOAM")
         self.iUpdateTimer = 0
         self.iSpeedPct = gc.getGameSpeedInfo(CyGame().getGameSpeedType()).getImprovementPercent()
         self.iTargetCities = gc.getWorldInfo(gc.getMap().getWorldSize()).getTargetNumCities()
@@ -1770,8 +1784,57 @@ class DuneWars:
                 if not pCheckPlayer.isAlive(): continue
                 iCheckTeam = pCheckPlayer.getTeam()
                 if not (iCheckTeam == iTeam or gc.getTeam(iCheckTeam).isVassal(iTeam)): continue
-                iSpice += pCheckPlayer.getCapitalCity().getNumBonuses(self.iBSpice)
+                pCapital = pCheckPlayer.getCapitalCity()
+                if not pCapital.isNone():
+                    iSpice += pCapital.getNumBonuses(self.iBSpice)
             self.dSpiceVictoryCount[iTeam] = iSpice
             if iSpice >= iWinFixedAmount:
                 if iSpice >= iWinThreshold:
                     CyGame().setWinner(iTeam, 6)
+
+    def cannotDoCivic(self, argsList):
+        self.Initialize()
+        ePlayer = argsList[0]
+        eCivic = argsList[1]
+        if eCivic == self.iCSpind and gc.getPlayer(ePlayer).getCivilizationType() == self.iCFrem:
+            return True
+        return False
+
+    def offWorldTrade(self, iPlayer):
+        self.Initialize()
+        pPlayer = gc.getPlayer(iPlayer)
+        if gc.getTeam(pPlayer.getTeam()).isHasTech(self.iOffworldTrade):
+            if pPlayer.getCivilizationType() != self.iCFrem:
+                iSpiceTrade = self.iSpiceTrade
+            else:
+                iSpiceTrade = self.iSpiceTradeFremen
+            (loopCity, iter) = pPlayer.firstCity(False)
+            while(loopCity):
+                if loopCity.isCapital():
+                    loopCity.setNumRealBuilding(iSpiceTrade, 1)
+                else:
+                    loopCity.setNumRealBuilding(iSpiceTrade, 0)
+                (loopCity, iter) = pPlayer.nextCity(iter, False)
+
+    def choamHq(self):
+        self.Initialize()
+        if gc.getGame().getReligionGameTurnFounded(self.iChoam) < 0:
+            return
+        cityWithChoamHq = None
+        iSpice = 0
+        iCityWithChoamCount = 0
+        for iPlayer in xrange(gc.getMAX_CIV_PLAYERS()):
+            pPlayer = gc.getPlayer(iPlayer)
+            if not pPlayer.isAlive():
+                continue
+            if not pPlayer.getCapitalCity().isNone():
+                iSpice += pPlayer.getCapitalCity().getNumBonuses(self.iBSpice)
+            (loopCity, iter) = pPlayer.firstCity(False)
+            while(loopCity):
+                if loopCity.isHasReligion(self.iChoam):
+                    iCityWithChoamCount += 1
+                if cityWithChoamHq is None and loopCity.getNumBuilding(self.iChoamShrine) > 0:
+                    cityWithChoamHq = loopCity
+                (loopCity, iter) = pPlayer.nextCity(iter, False)
+        if cityWithChoamHq is not None:
+            cityWithChoamHq.setBuildingCommerceChange(self.iChoamShrineClass, 0, 1 * iSpice + iCityWithChoamCount)

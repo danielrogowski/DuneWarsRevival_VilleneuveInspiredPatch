@@ -1,0 +1,1335 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Civ4GameText>
+	<!-- Religions, related buildings, units -->
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_IMPERIAL_PEDIA</Tag>
+		<English>
+[ICON_IMPERIAL]Imperial religion states that the Emperor shall hold supreme power.
+[ICON_BULLET]Imperial buildings focus on improving culture.
+[ICON_BULLET]The Bene Tleilax and Fremen civilizations cannot found this religion.
+[ICON_BULLET]If this religion is present in a city when another religion is spread there, this religion is removed.
+[ICON_BULLET]Can Construct Fiefdom, Feudal Estate, Imperial Palace, Great Keep.
+[ICON_BULLET]Can Train Imperial Diplomat.
+[ICON_BULLET]War actions while following this religion will influence plot culture more strongly.
+[ICON_BULLET]Followers of Imperial will see culture expansions in cities with at least a 'Developing' culture trigger a local Golden Age (duration dependent on the city cultural level; does not happen during a normal Golden Age).
+		</English>
+		<French>
+La Religion Imperiale etablit que l'Emperor detient le pouvoir supreme.
+[ICON_BULLET]Imperial buildings focus on improving culture.
+[ICON_BULLET]The Bene Tleilax and Fremen civilizations cannot found this religion.
+[ICON_BULLET]If this religion is present in a city when another religion is spread there, this religion is removed.
+[ICON_BULLET]Can Construct Fiefdom, Feudal Estate, Imperial Palace
+[ICON_BULLET]Can Train Imperial Diplomat
+		</French>
+		<German>
+Imperial religion states that the Emperor shall hold supreme power.
+[ICON_BULLET]Imperial buildings focus on improving culture.
+[ICON_BULLET]The Bene Tleilax and Fremen civilizations cannot found this religion.
+[ICON_BULLET]If this religion is present in a city when another religion is spread there, this religion is removed.
+[ICON_BULLET]Can Construct Fiefdom, Feudal Estate, Imperial Palace
+[ICON_BULLET]Can Train Imperial Diplomat
+		</German>
+		<Italian>
+Imperial religion states that the Emperor shall hold supreme power.
+[ICON_BULLET]Imperial buildings focus on improving culture.
+[ICON_BULLET]The Bene Tleilax and Fremen civilizations cannot found this religion.
+[ICON_BULLET]If this religion is present in a city when another religion is spread there, this religion is removed.
+[ICON_BULLET]Can Construct Fiefdom, Feudal Estate, Imperial Palace, Great Keep.
+[ICON_BULLET]Can Train Imperial Diplomat.
+		</Italian>
+		<Spanish>
+Imperial religion states that the Emperor shall hold supreme power.
+[ICON_BULLET]Imperial buildings focus on improving culture.
+[ICON_BULLET]The Bene Tleilax and Fremen civilizations cannot found this religion.
+[ICON_BULLET]If this religion is present in a city when another religion is spread there, this religion is removed.
+[ICON_BULLET]Can Construct Fiefdom, Feudal Estate, Imperial Palace
+[ICON_BULLET]Can Train Imperial Diplomat
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_CHOAM_PEDIA</Tag>
+		<English>
+[ICON_CHOAM]The Combine Honnete Ober Advancer Mercantiles (CHOAM) controls all economic affairs across the cosmos, although it relies upon the Spacing Guild for transport across space due to the Guild's monopoly on interstellar travel.
+[ICON_BULLET]CHOAM buildings focus on improving trade. The CHOAM Headquarters gives additional income for Spice and for all cities it has spread to.
+[ICON_BULLET]The Bene Tleilax, Fremen and Bene Gesserit civilizations cannot found this religion.
+[ICON_BULLET]Can Construct CHOAM Outpost, CHOAM Directorate, CHOAM Headquarters, Commodities Exchange.
+[ICON_BULLET]Can Train CHOAM Emissary.
+		</English>
+		<French>
+The Combine Honnete Ober Advancer Mercantiles (CHOAM) controls all economic affairs across the cosmos, although it relies upon the Spacing Guild for transport across space due to the Guild's monopoly on interstellar travel.
+[ICON_BULLET]CHOAM buildings focus on improving trade.
+[ICON_BULLET]The Bene Tleilax, Fremen and Bene Gesserit civilizations cannot found this religion.
+[ICON_BULLET]Can Construct CHOAM Outpost, CHOAM Directorate, CHOAM Headquarters
+[ICON_BULLET]Can Train CHOAM Emissary
+		</French>
+		<German>
+The Combine Honnete Ober Advancer Mercantiles (CHOAM) controls all economic affairs across the cosmos, although it relies upon the Spacing Guild for transport across space due to the Guild's monopoly on interstellar travel.
+[ICON_BULLET]CHOAM buildings focus on improving trade.
+[ICON_BULLET]The Bene Tleilax, Fremen and Bene Gesserit civilizations cannot found this religion.
+[ICON_BULLET]Can Construct CHOAM Outpost, CHOAM Directorate, CHOAM Headquarters
+[ICON_BULLET]Can Train CHOAM Emissary
+		</German>
+		<Italian>
+The Combine Honnete Ober Advancer Mercantiles (CHOAM) controls all economic affairs across the cosmos, although it relies upon the Spacing Guild for transport across space due to the Guild's monopoly on interstellar travel.
+[ICON_BULLET]CHOAM buildings focus on improving trade.
+[ICON_BULLET]The Bene Tleilax, Fremen and Bene Gesserit civilizations cannot found this religion.
+[ICON_BULLET]Can Construct CHOAM Outpost, CHOAM Directorate, CHOAM Headquarters
+[ICON_BULLET]Can Train CHOAM Emissary
+		</Italian>
+		<Spanish>
+The Combine Honnete Ober Advancer Mercantiles (CHOAM) controls all economic affairs across the cosmos, although it relies upon the Spacing Guild for transport across space due to the Guild's monopoly on interstellar travel.
+[ICON_BULLET]CHOAM buildings focus on improving trade.
+[ICON_BULLET]The Bene Tleilax, Fremen and Bene Gesserit civilizations cannot found this religion.
+[ICON_BULLET]Can Construct CHOAM Outpost, CHOAM Directorate, CHOAM Headquarters
+[ICON_BULLET]Can Train CHOAM Emissary
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_MAHDI_PEDIA</Tag>
+		<English>
+[ICON_MAHDI]Mahdi religion states that the Messiah shall hold supreme power.
+[ICON_BULLET]Followers of this religion can train inexpensive Mahdi Zealots and Mahdi Mujahids which do not have any military support cost.
+[ICON_BULLET]All Mahdi fighting units will gain extra experience based on the Mahdi Religious Influence on training completion.
+[ICON_BULLET]The Corrino and Bene Tleilax civilizations cannot found this religion.
+[ICON_BULLET]This religion has no missionaries.  However, when a city is conquered by a civilization following this religion, this religion is automatically spread in the city.
+[ICON_BULLET]The follower of this religion automatically spreads it to newly built cities.
+[ICON_BULLET]This religion can be harder to purge due to the fanaticism of its followers.
+[ICON_BULLET]Followers of this religion will see their religious purges succeed more often.
+[ICON_BULLET]Can Construct Temple of the Mahdi, Dune Messiah and Jihad Veterans Barracks.
+		</English>
+		<French>
+Mahdi religion states that the Messiah shall hold supreme power.
+[ICON_BULLET]Followers of this religion can train inexpensive Mahdi Zealots which do not have any military support cost.
+[ICON_BULLET]The Corrino and Bene Tleilax civilizations cannot found this religion.
+[ICON_BULLET]This religion has no missionaries.  However, when a city is conquered by a civilization following this religion, this religion is automatically spread in the city.
+[ICON_BULLET]Can Construct Temple of the Messiah, Dune Messiah and Jihad Veterans Barracks
+[ICON_BULLET]Can Train Mahdi Zealot
+		</French>
+		<German>
+Mahdi religion states that the Messiah shall hold supreme power.
+[ICON_BULLET]Followers of this religion can train inexpensive Mahdi Zealots which do not have any military support cost.
+[ICON_BULLET]The Corrino and Bene Tleilax civilizations cannot found this religion.
+[ICON_BULLET]This religion has no missionaries.  However, when a city is conquered by a civilization following this religion, this religion is automatically spread in the city.
+[ICON_BULLET]Can Construct Temple of the Messiah, Dune Messiah and Jihad Veterans Barracks
+[ICON_BULLET]Can Train Mahdi Zealot
+		</German>
+		<Italian>
+Mahdi religion states that the Messiah shall hold supreme power.
+[ICON_BULLET]Followers of this religion can train inexpensive Mahdi Zealots which do not have any military support cost.
+[ICON_BULLET]The Corrino and Bene Tleilax civilizations cannot found this religion.
+[ICON_BULLET]This religion has no missionaries.  However, when a city is conquered by a civilization following this religion, this religion is automatically spread in the city.
+[ICON_BULLET]Can Construct Temple of the Messiah, Dune Messiah and Jihad Veterans Barracks
+[ICON_BULLET]Can Train Mahdi Zealot
+		</Italian>
+		<Spanish>
+Mahdi religion states that the Messiah shall hold supreme power.
+[ICON_BULLET]Followers of this religion can train inexpensive Mahdi Zealots which do not have any military support cost.
+[ICON_BULLET]The Corrino and Bene Tleilax civilizations cannot found this religion.
+[ICON_BULLET]This religion has no missionaries.  However, when a city is conquered by a civilization following this religion, this religion is automatically spread in the city.
+[ICON_BULLET]Can Construct Temple of the Messiah, Dune Messiah and Jihad Veterans Barracks
+[ICON_BULLET]Can Train Mahdi Zealot
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_QIZARATE_PEDIA</Tag>
+		<English>
+[ICON_QIZARATE]Qizarate religion states that the Church Bureaucracy shall hold supreme power.
+[ICON_BULLET]Qizarate buildings improve happiness and health at the expense of innovation.
+[ICON_BULLET]The Bene Tleilax civilization cannot found this religion.
+[ICON_BULLET]When this religion is spread in a city, all other religions are removed.
+[ICON_BULLET]Can Construct Qizarate Temple, Golden Path, Temple of Alia.
+[ICON_BULLET]Can Train Qizarate Priest and Fish Speaker.
+[ICON_BULLET]For followers of this religion, the Qizarate religious influence will serve as a multiplier for Golden Age length.
+		</English>
+		<French>
+Qizarate religion states that the Church Bureaucracy shall hold supreme power.
+[ICON_BULLET]Qizarate buildings improve happiness and health at the expense of innovation.
+[ICON_BULLET]The Corrino and Bene Tleilax civilizations cannot found this religion.
+[ICON_BULLET]When this religion is spread in a city, all other religions are removed.
+[ICON_BULLET]Can Construct Qizarate Temple, Golden Path, Temple of Alia
+[ICON_BULLET]Can Train Qizarate Priest and Fish Speaker
+		</French>
+		<German>
+Qizarate religion states that the Church Bureaucracy shall hold supreme power.
+[ICON_BULLET]Qizarate buildings improve happiness and health at the expense of innovation.
+[ICON_BULLET]The Corrino and Bene Tleilax civilizations cannot found this religion.
+[ICON_BULLET]When this religion is spread in a city, all other religions are removed.
+[ICON_BULLET]Can Construct Qizarate Temple, Golden Path, Temple of Alia
+[ICON_BULLET]Can Train Qizarate Priest and Fish Speaker
+		</German>
+		<Italian>
+Qizarate religion states that the Church Bureaucracy shall hold supreme power.
+[ICON_BULLET]Qizarate buildings improve happiness and health at the expense of innovation.
+[ICON_BULLET]The Corrino and Bene Tleilax civilizations cannot found this religion.
+[ICON_BULLET]When this religion is spread in a city, all other religions are removed.
+[ICON_BULLET]Can Construct Qizarate Temple, Golden Path, Temple of Alia
+[ICON_BULLET]Can Train Qizarate Priest and Fish Speaker
+		</Italian>
+		<Spanish>
+Qizarate religion states that the Church Bureaucracy shall hold supreme power.
+[ICON_BULLET]Qizarate buildings improve happiness and health at the expense of innovation.
+[ICON_BULLET]The Corrino and Bene Tleilax civilizations cannot found this religion.
+[ICON_BULLET]When this religion is spread in a city, all other religions are removed.
+[ICON_BULLET]Can Construct Qizarate Temple, Golden Path, Temple of Alia
+[ICON_BULLET]Can Train Qizarate Priest and Fish Speaker
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_SHAIHULUD_PEDIA</Tag>
+		<English>
+[ICON_SHAIHULUD]The Shai-Hulud religion represents the worship of the Makers, the great Sandworms of Arrakis, but it also represents the traditional way of life of the ordinary people of Dune; a life of quite toil, traditional beliefs, and water conservation, that contrasts with offworld ways.
+[ICON_BULLET]The Bene Tleilax civilization cannot found this religion.
+[ICON_BULLET]Can Construct Temple of the Maker, Altar of Shai-Hulud, Shrine of the Worm and Palmery.
+[ICON_BULLET]Can Train Shai-Hulud Sayyadina.
+		</English>
+		<French>
+The Shai-Hulud religion represents the worship of the Makers, the great Sandworms of Arrakis, but it also represents the traditional way of life of the ordinary people of Dune; a life of quite toil, traditional beliefs, and water conservation, that contrasts with offworld ways.
+[ICON_BULLET]The Bene Tleilax civilization cannot found this religion.
+[ICON_BULLET]Can Construct Temple of the Maker, Altar of Shai-Hulud, Shrine of the Worm and Palmery
+[ICON_BULLET]Can Train Shai-Hulud Sayyadina
+		</French>
+		<German>
+The Shai-Hulud religion represents the worship of the Makers, the great Sandworms of Arrakis, but it also represents the traditional way of life of the ordinary people of Dune; a life of quite toil, traditional beliefs, and water conservation, that contrasts with offworld ways.
+[ICON_BULLET]The Bene Tleilax civilization cannot found this religion.
+[ICON_BULLET]Can Construct Temple of the Maker, Altar of Shai-Hulud, Shrine of the Worm and Palmery
+[ICON_BULLET]Can Train Shai-Hulud Sayyadina
+		</German>
+		<Italian>
+The Shai-Hulud religion represents the worship of the Makers, the great Sandworms of Arrakis, but it also represents the traditional way of life of the ordinary people of Dune; a life of quite toil, traditional beliefs, and water conservation, that contrasts with offworld ways.
+[ICON_BULLET]The Bene Tleilax civilization cannot found this religion.
+[ICON_BULLET]Can Construct Temple of the Maker, Altar of Shai-Hulud, Shrine of the Worm and Palmery
+[ICON_BULLET]Can Train Shai-Hulud Sayyadina
+		</Italian>
+		<Spanish>
+The Shai-Hulud religion represents the worship of the Makers, the great Sandworms of Arrakis, but it also represents the traditional way of life of the ordinary people of Dune; a life of quite toil, traditional beliefs, and water conservation, that contrasts with offworld ways.
+[ICON_BULLET]The Bene Tleilax civilization cannot found this religion.
+[ICON_BULLET]Can Construct Temple of the Maker, Altar of Shai-Hulud, Shrine of the Worm and Palmery
+[ICON_BULLET]Can Train Shai-Hulud Sayyadina
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_TECHNOCRAT_PEDIA</Tag>
+		<English>
+[ICON_TECHNOCRAT]Thinking Machines state that technology shall hold supreme power.
+[ICON_BULLET]Can build Automated Technocratic buildings that improve science and production.
+[ICON_BULLET]The Bene Tleilax and Bene Gesserit civilizations cannot found this religion.
+[ICON_BULLET]Can Construct The Great Processor.
+[ICON_BULLET]Can Train Thinking Machine Propagator and Cymek.
+[ICON_BULLET]Followers of Thinking Machines will have their cities with this religion generate extra [ICON_RESEARCH] by means of excess production (value also influenced by the city's research modifiers).
+		</English>
+		<French>
+Technocracy states that technology shall hold supreme power.
+[ICON_BULLET]Technocratic buildings improve science and production.
+[ICON_BULLET]The Bene Tleilax and Bene Gesserit civilizations cannot found this religion.
+[ICON_BULLET]Can Construct The Great Processor
+[ICON_BULLET]Can Train Thinking Machine Propagator and Cymek 
+		</French>
+		<German>
+Technocracy states that technology shall hold supreme power.
+[ICON_BULLET]Technocratic buildings improve science and production.
+[ICON_BULLET]The Bene Tleilax and Bene Gesserit civilizations cannot found this religion.
+[ICON_BULLET]Can Construct The Great Processor
+[ICON_BULLET]Can Train Thinking Machine Propagator and Cymek 
+		</German>
+		<Italian>
+Technocracy states that technology shall hold supreme power.
+[ICON_BULLET]Technocratic buildings improve science and production.
+[ICON_BULLET]The Bene Tleilax and Bene Gesserit civilizations cannot found this religion.
+[ICON_BULLET]Can Construct The Great Processor
+[ICON_BULLET]Can Train Thinking Machine Propagator and Cymek 
+		</Italian>
+		<Spanish>
+Technocracy states that technology shall hold supreme power.
+[ICON_BULLET]Technocratic buildings improve science and production.
+[ICON_BULLET]The Bene Tleilax and Bene Gesserit civilizations cannot found this religion.
+[ICON_BULLET]Can Construct The Great Processor
+[ICON_BULLET]Can Train Thinking Machine Propagator and Cymek 
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_TLEILAXU_ZENSUFISM_PEDIA</Tag>
+		<English>
+[ICON_TLEILAXU]Tleilaxu Zensufism states that the Bene Tleilax shall hold supreme power.
+[ICON_BULLET]No civilization other than the Bene Tleilax can use this religion.
+[ICON_BULLET]The Bene Tleilax civilization automatically founds this religion in its first city.
+[ICON_BULLET]The Bene Tleilax civilization automatically spreads this religion to newly built and conquered cities.
+[ICON_BULLET]Can Construct Zensufi Temple, Shrine of the Mahai, Great Kehl and Minor Kehl.
+		</English>
+		<French>
+Le Zen-Soufisme Tleilaxu Zensufism établit que les Bene Tleilax peuvent détenir le pouvoir suprême.
+[ICON_BULLET]La civilisation Bene Tleilax fonde automatiquement cette Religion dans sa première ville.
+[ICON_BULLET]Peut construire le Temple Zen-Soufi, L'Autel Zen-Soufi
+		</French>
+		<German>
+Tleilaxu Zensufism states that the Bene Tleilax shall hold supreme power.
+[ICON_BULLET]The Bene Tleilax civilization automatically founds this religion in its first city.
+[ICON_BULLET]Can Construct Zensufi Temple, Zensufi Shrine
+		</German>
+		<Italian>
+Tleilaxu Zensufism states that the Bene Tleilax shall hold supreme power.
+[ICON_BULLET]The Bene Tleilax civilization automatically founds this religion in its first city.
+[ICON_BULLET]Can Construct Zensufi Temple, Zensufi Shrine
+		</Italian>
+		<Spanish>
+Tleilaxu Zensufism states that the Bene Tleilax shall hold supreme power.
+[ICON_BULLET]The Bene Tleilax civilization automatically founds this religion in its first city.
+[ICON_BULLET]Can Construct Zensufi Temple, Zensufi Shrine
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_IMPERIAL_HALL_PEDIA</Tag>
+		<English>
+The Imperium referred to the form of absolute trans-world governance used to maintain control and influence over the Known Universe. For more than 10,000 years the Imperium was headed by a ruling family or noble House, namely House Corrino. The Corrinos used political power and the superior force of it's army to coerce or manipulate other significant political players and the Imperium managed to function through a delicate balance.
+		</English>
+		<French>
+Stub text for Fiefdom
+		</French>
+		<German>
+Stub text for Fiefdom
+		</German>
+		<Italian>
+Stub text for Fiefdom
+		</Italian>
+		<Spanish>
+Stub text for Fiefdom
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_IMPERIAL_HALL_STRATEGY</Tag>
+		<English>
+Significantly increases the culture output of this city and provides happiness.  Build this in large cities on your borders.
+		</English>
+		<French>
+Augmente de manière significative la culture de cette ville, et procure du bonheur. A Construire dans les grandes Villes près de vos frontières.
+		</French>
+		<German>
+Significantly increases the culture output of this city and provides happiness.  Build this in large cities on your borders.
+		</German>
+		<Italian>
+Significantly increases the culture output of this city and provides happiness.  Build this in large cities on your borders.
+		</Italian>
+		<Spanish>
+Significantly increases the culture output of this city and provides happiness.  Build this in large cities on your borders.
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_IMPERIAL_SHRINE_PEDIA</Tag>
+		<English>
+The Imperium referred to the form of absolute trans-world governance used to maintain control and influence over the Known Universe. For more than 10,000 years the Imperium was headed by a ruling family or noble House, namely House Corrino. The Corrinos used political power and the superior force of it's army to coerce or manipulate other significant political players and the Imperium managed to function through a delicate balance.
+		</English>
+		<French>
+Stub text for Imperial Palace
+		</French>
+		<German>
+Stub text for Imperial Palace
+		</German>
+		<Italian>
+Stub text for Imperial Palace
+		</Italian>
+		<Spanish>
+Stub text for Imperial Palace
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_IMPERIAL_SHRINE_STRATEGY</Tag>
+		<English>
+Significantly increases the culture output of this city, and increases the passive spread rate of the Imperial religion.
+		</English>
+		<French>
+Augmente de manière significative la culture de cette ville, et augmente également la propagation de la Religion Impériale.
+		</French>
+		<German>
+Significantly increases the culture output of this city, and increases the passive spread rate of the Imperial religion.
+		</German>
+		<Italian>
+Significantly increases the culture output of this city, and increases the passive spread rate of the Imperial religion.
+		</Italian>
+		<Spanish>
+Significantly increases the culture output of this city, and increases the passive spread rate of the Imperial religion.
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_IMPERIAL_TEMPLE_PEDIA</Tag>
+		<English>
+The Imperium referred to the form of absolute trans-world governance used to maintain control and influence over the Known Universe. For more than 10,000 years the Imperium was headed by a ruling family or noble House, namely House Corrino. The Corrinos used political power and the superior force of it's army to coerce or manipulate other significant political players and the Imperium managed to function through a delicate balance.
+		</English>
+		<French>
+Stub text for Feudal Estate
+		</French>
+		<German>
+Stub text for Feudal Estate
+		</German>
+		<Italian>
+Stub text for Feudal Estate
+		</Italian>
+		<Spanish>
+Stub text for Feudal Estate
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_IMPERIAL_TEMPLE_STRATEGY</Tag>
+		<English>
+Provides some happiness and culture income, and allows you to build missionaries to spread the Imperial religion.
+		</English>
+		<French>
+Procure du bonheur et de la culture, et vous permet d'entraîner des missionnaires pour propager la religion impériale.
+		</French>
+		<German>
+Provides some happiness and culture income, and allows you to build missionaries to spread the Imperial religion.
+		</German>
+		<Italian>
+Provides some happiness and culture income, and allows you to build missionaries to spread the Imperial religion.
+		</Italian>
+		<Spanish>
+Provides some happiness and culture income, and allows you to build missionaries to spread the Imperial religion.
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_LANDSRAAD_HALL_PEDIA</Tag>
+		<English>
+The Combine Honnete Ober Advancer Mercantiles or CHOAM essentially controls all economic affairs across the cosmos, although it relies upon the Spacing Guild for transport across space due to the Guild's monopoly on faster-than-light travel. CHOAM touched almost all products the Guild will transport, from art forms to technology and of course melange. Many Houses depend on CHOAM profits, and an enormous proportion of those depend on melange. CHOAM directorships were the real evidence of political power in the Imperium, passing with the shifts of voting strength within the Landsraad as it balanced itself against the Emperor and his supporters. Directorship in the CHOAM was the key to wealth, each noble House dipping from the company's coffers whatever it could under this power.
+		</English>
+		<French>
+Stub text for CHOAM Directorate
+		</French>
+		<German>
+Stub text for CHOAM Directorate
+		</German>
+		<Italian>
+Stub text for CHOAM Directorate
+		</Italian>
+		<Spanish>
+Stub text for CHOAM Directorate
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_LANDSRAAD_HALL_STRATEGY</Tag>
+		<English>
+An advanced trade booster for CHOAM.  Build this in large commerce-oriented cities to increase trade yields further, and to increase happiness provided by trade goods.
+		</English>
+		<French>
+An advanced trade booster for CHOAM.  Build this in large commerce-oriented cities to increase trade yields further, and to increase happiness provided by trade goods.
+		</French>
+		<German>
+An advanced trade booster for CHOAM.  Build this in large commerce-oriented cities to increase trade yields further, and to increase happiness provided by trade goods.
+		</German>
+		<Italian>
+An advanced trade booster for CHOAM.  Build this in large commerce-oriented cities to increase trade yields further, and to increase happiness provided by trade goods.
+		</Italian>
+		<Spanish>
+An advanced trade booster for CHOAM.  Build this in large commerce-oriented cities to increase trade yields further, and to increase happiness provided by trade goods.
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CHOAM_TEMPLE_PEDIA</Tag>
+		<English>
+The Combine Honnete Ober Advancer Mercantiles or CHOAM essentially controls all economic affairs across the cosmos, although it relies upon the Spacing Guild for transport across space due to the Guild's monopoly on faster-than-light travel. CHOAM touched almost all products the Guild will transport, from art forms to technology and of course melange. Many Houses depend on CHOAM profits, and an enormous proportion of those depend on melange. CHOAM directorships were the real evidence of political power in the Imperium, passing with the shifts of voting strength within the Landsraad as it balanced itself against the Emperor and his supporters. Directorship in the CHOAM was the key to wealth, each noble House dipping from the company's coffers whatever it could under this power.
+		</English>
+		<French>
+Stub text for CHOAM Outpost
+		</French>
+		<German>
+Stub text for CHOAM Outpost
+		</German>
+		<Italian>
+Stub text for CHOAM Outpost
+		</Italian>
+		<Spanish>
+Stub text for CHOAM Outpost
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CHOAM_TEMPLE_STRATEGY</Tag>
+		<English>
+The basic trade booster for CHOAM.  Build this to increase trade commerce income, particularly in cities that have other trade boosters.
+		</English>
+		<French>
+The basic trade booster for CHOAM.  Build this to increase trade commerce income, particularly in cities that have other trade boosters.
+		</French>
+		<German>
+The basic trade booster for CHOAM.  Build this to increase trade commerce income, particularly in cities that have other trade boosters.
+		</German>
+		<Italian>
+The basic trade booster for CHOAM.  Build this to increase trade commerce income, particularly in cities that have other trade boosters.
+		</Italian>
+		<Spanish>
+The basic trade booster for CHOAM.  Build this to increase trade commerce income, particularly in cities that have other trade boosters.
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_LANDSRAAD_SHRINE_PEDIA</Tag>
+		<English>
+The Combine Honnete Ober Advancer Mercantiles or CHOAM essentially controls all economic affairs across the cosmos, although it relies upon the Spacing Guild for transport across space due to the Guild's monopoly on faster-than-light travel. CHOAM touched almost all products the Guild will transport, from art forms to technology and of course melange. Many Houses depend on CHOAM profits, and an enormous proportion of those depend on melange. CHOAM directorships were the real evidence of political power in the Imperium, passing with the shifts of voting strength within the Landsraad as it balanced itself against the Emperor and his supporters. Directorship in the CHOAM was the key to wealth, each noble House dipping from the company's coffers whatever it could under this power.
+		</English>
+		<French>
+Stub text for CHOAM Headquarters
+		</French>
+		<German>
+Stub text for CHOAM Headquarters
+		</German>
+		<Italian>
+Stub text for CHOAM Headquarters
+		</Italian>
+		<Spanish>
+Stub text for CHOAM Headquarters
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_LANDSRAAD_SHRINE_STRATEGY</Tag>
+		<English>
+Provides 2 gold for each spice resource on the planet, even for those other civ's produce.  It additionally provides 1 gold for each city with CHOAM.
+		</English>
+		<French>
+Procure de l'or pour chaque ressource d'Epice que vous avez. Si vous avez accès à cette ressource, faites en sorte d'en obtenir le plus possible, afin de vous générer des revenus supplémentaires importants.
+		</French>
+		<German>
+Provides gold income for each spice resource you have.  If you control this reseource, focus on obtaining spice in order to generate massive gold income.
+		</German>
+		<Italian>
+Provides gold income for each spice resource you have.  If you control this reseource, focus on obtaining spice in order to generate massive gold income.
+		</Italian>
+		<Spanish>
+Provides gold income for each spice resource you have.  If you control this reseource, focus on obtaining spice in order to generate massive gold income.
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MAHDI_SHRINE_PEDIA</Tag>
+		<English>
+"The one who will lead us to paradise".
+		</English>
+		<French>
+Stub text for Dune Messiah
+		</French>
+		<German>
+Stub text for Dune Messiah
+		</German>
+		<Italian>
+Stub text for Dune Messiah
+		</Italian>
+		<Spanish>
+Stub text for Dune Messiah
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MAHDI_SHRINE_STRATEGY</Tag>
+		<English>
+Boosts the military production of this city for each city where the Mahdi religion is present.  Creates a military super-factory; settle great bursegs in the city with this shrine to produce a vast high quality army.
+		</English>
+		<French>
+Booste la production militaire de cette Ville, en fonction du nombre de villes où la religion Mahdi est présente. La Ville se transforme en véritable unise militaire. Combiné avec un Grand Burseg, vous produirez de plus une armée de grande qualité.
+		</French>
+		<German>
+Boosts the military production of this city for each city where the Mahdi religion is present.  Creates a military super-factory; settle great bursegs in the city with this shrine to produce a vast high quality army.
+		</German>
+		<Italian>
+Boosts the military production of this city for each city where the Mahdi religion is present.  Creates a military super-factory; settle great bursegs in the city with this shrine to produce a vast high quality army.
+		</Italian>
+		<Spanish>
+Boosts the military production of this city for each city where the Mahdi religion is present.  Creates a military super-factory; settle great bursegs in the city with this shrine to produce a vast high quality army.
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MAHDI_TEMPLE_PEDIA</Tag>
+		<English>
+Mahdi was the name used by the Fremen to describe their saviour in their messianic legend. The term equated roughly to "The one who will lead us to paradise".
+		</English>
+		<French>
+Stub text for Temple of Muad'Dib
+		</French>
+		<German>
+Stub text for Temple of Muad'Dib
+		</German>
+		<Italian>
+Stub text for Temple of Muad'Dib
+		</Italian>
+		<Spanish>
+Stub text for Temple of Muad'Dib
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MAHDI_TEMPLE_STRATEGY</Tag>
+		<English>
+Increases the military output of this city; build this where you intend to construct military units.
+		</English>
+		<French>
+Augmente la production des unités militaires dans cette Ville. A construire si vous avez l'intention d'entraîner des troupes ici.
+		</French>
+		<German>
+Increases the military output of this city; build this where you intend to construct military units.
+		</German>
+		<Italian>
+Increases the military output of this city; build this where you intend to construct military units.
+		</Italian>
+		<Spanish>
+Increases the military output of this city; build this where you intend to construct military units.
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_QIZARATE_CONVENT_PEDIA</Tag>
+		<English>
+The Golden Path ("Secher Nbiw" in the ancient Egyptian language) was an expansive prescient interpretation that was only visible to the Kwisatz Haderach. It foretold the fluid events of the future, both great and small. More profoundly, however, it revealed an optimum path through the countless threads of cause and effect that were encountered by the human race.
+		</English>
+		<French>
+Stub text for Golden Path
+		</French>
+		<German>
+Stub text for Golden Path
+		</German>
+		<Italian>
+Stub text for Golden Path
+		</Italian>
+		<Spanish>
+Stub text for Golden Path
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_QIZARATE_CONVENT_STRATEGY</Tag>
+		<English>
+Provides massive happiness and health bonuses for a city, but at the cost of science and trade yields.  Use this if you have lots of water (probably from terraforming) to support super-cities.
+		</English>
+		<French>
+Procure des bonus importants de Santé et de Bonheur pour la Ville, mais avec comme contrepartie une diminution de la science et du commerce. A construire si vous avez beaucoup d'eau (provenant de la terraformation par exemple) pour soutenir les super-Villes.
+		</French>
+		<German>
+Provides massive happiness and health bonuses for a city, but at the cost of science and trade yields.  Use this if you have lots of water (probably from terraforming) to support super-cities.
+		</German>
+		<Italian>
+Provides massive happiness and health bonuses for a city, but at the cost of science and trade yields.  Use this if you have lots of water (probably from terraforming) to support super-cities.
+		</Italian>
+		<Spanish>
+Provides massive happiness and health bonuses for a city, but at the cost of science and trade yields.  Use this if you have lots of water (probably from terraforming) to support super-cities.
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_QIZARATE_SHRINE_PEDIA</Tag>
+		<English>
+The impact of Alia's religious powerbase was long-lived. Many considered her a revered figure for several hundreds of years after her death.
+		</English>
+		<French>
+Stub text for Temple of Alia
+		</French>
+		<German>
+Stub text for Temple of Alia
+		</German>
+		<Italian>
+Stub text for Temple of Alia
+		</Italian>
+		<Spanish>
+Stub text for Temple of Alia
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_QIZARATE_SHRINE_STRATEGY</Tag>
+		<English>
+This center of the Qizarate religion removes all unhappiness from the city, and provides gold for every city with Qizarate.  Spread the Qizarate religion wide in order to maximize this benefit.  Controlling this wonder makes a religious victory particularly possible, since Qizarate missionaries wipe away other religons when they spread their faith.
+		</English>
+		<French>
+Ce Centre de la Religion Qizarate supprime tous les mécontents de la Ville, et procure de l'or, proportionnellement au nombre de Villes avec cette religion. Propagez la religion afin de maximiser cet avantage. Avec cette merveille, la Victoire religieuse devient possible, car les missionnaires Qizarate ont l'avantage de remplacer les religions existante lorsqu'ils propage leur Foi.
+		</French>
+		<German>
+This center of the Qizarate religion removes all unhappiness from the city, and provides gold for every city with Qizarate.  Spread the Qizarate religion wide in order to maximize this benefit.  Controlling this wonder makes a religious victory particularly possible, since Qizarate missionaries wipe away other religons when they spread their faith.
+		</German>
+		<Italian>
+This center of the Qizarate religion removes all unhappiness from the city, and provides gold for every city with Qizarate.  Spread the Qizarate religion wide in order to maximize this benefit.  Controlling this wonder makes a religious victory particularly possible, since Qizarate missionaries wipe away other religons when they spread their faith.
+		</Italian>
+		<Spanish>
+This center of the Qizarate religion removes all unhappiness from the city, and provides gold for every city with Qizarate.  Spread the Qizarate religion wide in order to maximize this benefit.  Controlling this wonder makes a religious victory particularly possible, since Qizarate missionaries wipe away other religons when they spread their faith.
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_QIZARATE_TEMPLE_PEDIA</Tag>
+		<English>
+Qizarate religion states that the Church Bureaucracy shall hold supreme power.
+		</English>
+		<French>
+Stub text for Qizarate Temple
+		</French>
+		<German>
+Stub text for Qizarate Temple
+		</German>
+		<Italian>
+Stub text for Qizarate Temple
+		</Italian>
+		<Spanish>
+Stub text for Qizarate Temple
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_QIZARATE_TEMPLE_STRATEGY</Tag>
+		<English>
+Significantly reduces the maintenance costs of the city.  Build this to enable to you to run a huge empire without crippling city maintenance costs.
+		</English>
+		<French>
+Réduit de manière significative les coûts de maintenance de cette Ville. A Construire si vous souhaitez disposer d'un vaste Empire, sans en subir les conséquences au niveau de l'entretien.
+		</French>
+		<German>
+Significantly reduces the maintenance costs of the city.  Build this to enable to you to run a huge empire without crippling city maintenance costs.
+		</German>
+		<Italian>
+Significantly reduces the maintenance costs of the city.  Build this to enable to you to run a huge empire without crippling city maintenance costs.
+		</Italian>
+		<Spanish>
+Significantly reduces the maintenance costs of the city.  Build this to enable to you to run a huge empire without crippling city maintenance costs.
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SHAIHULUD_HALL_PEDIA</Tag>
+		<English>
+Shai-Hulud is the Fremen term for the sandworm or "Maker" of Arrakis. As with many Fremen terms and words, Shai-Hulud is more than a mere descriptive term for a physical entity. Specifically, it often alludes to the Fremen belief that the sandworm is a physical embodiment of the One God that created and governs the universe. Thus to the Fremen, Shai-Hulud is a sacred term that is usually spoken with a tone of awe, fear or respect. Linguistically, Shai-Hulud has many literal translations, all of which speak of the size, age, and power of the sandworm. Among the noted translations are:
+
+    "Old Man of the Desert"
+    "Old Father Eternity"
+    "Grandfather of the Desert" 
+
+In Arabic, the name can be split into "Shai" ("thing") and "Hulud" ("eternal" or "eternity"). Shai-Hulud is not to be mistaken with Shaitan, a similar sounding Fremen term that carries a very different meaning. 
+		</English>
+		<French>
+Stub text for Altar of Shai-Hulud
+		</French>
+		<German>
+Stub text for Altar of Shai-Hulud
+		</German>
+		<Italian>
+Stub text for Altar of Shai-Hulud
+		</Italian>
+		<Spanish>
+Stub text for Altar of Shai-Hulud
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SHAIHULUD_HALL_STRATEGY</Tag>
+		<English>
+This cathedral for the Shai-Hulad religion provides significant happiness and culture benefits.  Build it in large cities or border cities.  Build more Shai-Hulad temples in order to build more Altars.
+		</English>
+		<French>
+Cette cathédrale de la Religion Shai-Hulad procure des avantages en culture et en bonheur. A construire dans des Villes importantes ou à vos frontières.
+		</French>
+		<German>
+This cathedral for the Shai-Hulad religion provides significant happiness and culture benefits.  Build it in large cities or border cities.  Build more Shai-Hulad temples in order to build more Altars.
+		</German>
+		<Italian>
+This cathedral for the Shai-Hulad religion provides significant happiness and culture benefits.  Build it in large cities or border cities.  Build more Shai-Hulad temples in order to build more Altars.
+		</Italian>
+		<Spanish>
+This cathedral for the Shai-Hulad religion provides significant happiness and culture benefits.  Build it in large cities or border cities.  Build more Shai-Hulad temples in order to build more Altars.
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SHAIHULUD_SHRINE_PEDIA</Tag>
+		<English>
+Shai-Hulud is the Fremen term for the sandworm or "Maker" of Arrakis. As with many Fremen terms and words, Shai-Hulud is more than a mere descriptive term for a physical entity. Specifically, it often alludes to the Fremen belief that the sandworm is a physical embodiment of the One God that created and governs the universe. Thus to the Fremen, Shai-Hulud is a sacred term that is usually spoken with a tone of awe, fear or respect. Linguistically, Shai-Hulud has many literal translations, all of which speak of the size, age, and power of the sandworm. Among the noted translations are:
+
+    "Old Man of the Desert"
+    "Old Father Eternity"
+    "Grandfather of the Desert" 
+
+In Arabic, the name can be split into "Shai" ("thing") and "Hulud" ("eternal" or "eternity"). Shai-Hulud is not to be mistaken with Shaitan, a similar sounding Fremen term that carries a very different meaning. 
+		</English>
+		<French>
+Stub text for Shrine of the Worm
+		</French>
+		<German>
+Stub text for Shrine of the Worm
+		</German>
+		<Italian>
+Stub text for Shrine of the Worm
+		</Italian>
+		<Spanish>
+Stub text for Shrine of the Worm
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SHAIHULUD_SHRINE_STRATEGY</Tag>
+		<English>
+A basic religious shrine.  If you control this, then try to spread the Shai-Hulad religion to as many cities as possible to increase your shrine income.
+		</English>
+		<French>
+Bâtiment religieux basique. avec sa construction, essayez de propager la religion Sahi-Hulad au maximum d'autre Villes pour augmenter les revenus de ce mausolé.
+		</French>
+		<German>
+A basic religious shrine.  If you control this, then try to spread the Shai-Hulad religion to as many cities as possible to increase your shrine income.
+		</German>
+		<Italian>
+A basic religious shrine.  If you control this, then try to spread the Shai-Hulad religion to as many cities as possible to increase your shrine income.
+		</Italian>
+		<Spanish>
+A basic religious shrine.  If you control this, then try to spread the Shai-Hulad religion to as many cities as possible to increase your shrine income.
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SHAIHULUD_TEMPLE_PEDIA</Tag>
+		<English>
+Shai-Hulud is the Fremen term for the sandworm or "Maker" of Arrakis. As with many Fremen terms and words, Shai-Hulud is more than a mere descriptive term for a physical entity. Specifically, it often alludes to the Fremen belief that the sandworm is a physical embodiment of the One God that created and governs the universe. Thus to the Fremen, Shai-Hulud is a sacred term that is usually spoken with a tone of awe, fear or respect. Linguistically, Shai-Hulud has many literal translations, all of which speak of the size, age, and power of the sandworm. Among the noted translations are:
+
+    "Old Man of the Desert"
+    "Old Father Eternity"
+    "Grandfather of the Desert" 
+
+In Arabic, the name can be split into "Shai" ("thing") and "Hulud" ("eternal" or "eternity"). Shai-Hulud is not to be mistaken with Shaitan, a similar sounding Fremen term that carries a very different meaning. 
+		</English>
+		<French>
+Stub text for Temple of the Maker
+		</French>
+		<German>
+Stub text for Temple of the Maker
+		</German>
+		<Italian>
+Stub text for Temple of the Maker
+		</Italian>
+		<Spanish>
+Stub text for Temple of the Maker
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SHAIHULUD_TEMPLE_STRATEGY</Tag>
+		<English>
+Provides a small water and culture bonus, useful for early expansion.
+		</English>
+		<French>
+Procure un léger bonus en eau et en culture, utile pour l'expansion de la ville à ses débuts.
+		</French>
+		<German>
+Provides a small water and culture bonus, useful for early expansion.
+		</German>
+		<Italian>
+Provides a small water and culture bonus, useful for early expansion.
+		</Italian>
+		<Spanish>
+Provides a small water and culture bonus, useful for early expansion.
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TECHNOCRAT_SHRINE_PEDIA</Tag>
+		<English>
+Following the rise of the actual thinking machines, and the physical and psychological damage they inflicted on the free humans, the very concept of a sentient machine became abhorrent to humanity and they were obliterated by the Butlerian Jihad. Animosity against seemingly intelligent machines often escalated into outright hysteria, and resulted in a widespread hatred of mechanical objects. This hatred lasted through the ages thanks to rigid cultural restrictions, a good example of which was the Orange Catholic Bible's supreme commandment: Thou shalt not make a machine in the likeness of a human mind.
+		</English>
+		<French>
+Stub text for The Great Processor
+		</French>
+		<German>
+Stub text for The Great Processor
+		</German>
+		<Italian>
+Stub text for The Great Processor
+		</Italian>
+		<Spanish>
+Stub text for The Great Processor
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TECHNOCRAT_SHRINE_STRATEGY</Tag>
+		<English>
+The Thinking Machine shrine boosts your research and production.  Spread this religion to create a super-city.
+		</English>
+		<French>
+The Thinking Machine shrine boosts your research and production.  Spread this religion to create a super-city.
+		</French>
+		<German>
+The Thinking Machine shrine boosts your research and production.  Spread this religion to create a super-city.
+		</German>
+		<Italian>
+The Thinking Machine shrine boosts your research and production.  Spread this religion to create a super-city.
+		</Italian>
+		<Spanish>
+The Thinking Machine shrine boosts your research and production.  Spread this religion to create a super-city.
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TLEILAXU_SHRINE_PEDIA</Tag>
+		<English>
+The person who takes the banal and ordinary and illuminates it in a new way can terrify. We do not want our ideas changed. We feel threatened by such demands. "I already know the important things!" we say. Then Changer comes and throws our old ideas away. - The Zensufi Master
+		</English>
+		<French>
+Stub text for Zensufi Shrine
+		</French>
+		<German>
+Stub text for Zensufi Shrine
+		</German>
+		<Italian>
+Stub text for Zensufi Shrine
+		</Italian>
+		<Spanish>
+Stub text for Zensufi Shrine
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TLEILAXU_SHRINE_STRATEGY</Tag>
+		<English>
+A very valuable shrine, build this as soon as possible, as it boosts the value of priest and settled great priest specialists.
+		</English>
+		<French>
+Un autel de grande valeur, à construire dès que possible, car il booste la valeur des prêtres et favorise la naissance de Prêtres illustres.
+		</French>
+		<German>
+A very valuable shrine, build this as soon as possible, as it boosts the value of priest and settled great priest specialists.
+		</German>
+		<Italian>
+A very valuable shrine, build this as soon as possible, as it boosts the value of priest and settled great priest specialists.
+		</Italian>
+		<Spanish>
+A very valuable shrine, build this as soon as possible, as it boosts the value of priest and settled great priest specialists.
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TLEILAXU_TEMPLE_PEDIA</Tag>
+		<English>
+The person who takes the banal and ordinary and illuminates it in a new way can terrify. We do not want our ideas changed. We feel threatened by such demands. "I already know the important things!" we say. Then Changer comes and throws our old ideas away. - The Zensufi Master
+		</English>
+		<French>
+Stub text for Zensufi Temple
+		</French>
+		<German>
+Stub text for Zensufi Temple
+		</German>
+		<Italian>
+Stub text for Zensufi Temple
+		</Italian>
+		<Spanish>
+Stub text for Zensufi Temple
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TLEILAXU_KEHL_PEDIA</Tag>
+		<English>
+Uproot your questions from their ground and the dangling roots will be seen. More questions! - Mentat Zensufi admonition
+		</English>
+		<French>
+Stub text for Zensufi Temple
+		</French>
+		<German>
+Stub text for Zensufi Temple
+		</German>
+		<Italian>
+Stub text for Zensufi Temple
+		</Italian>
+		<Spanish>
+Stub text for Zensufi Temple
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TLEILAXU_TEMPLE_STRATEGY</Tag>
+		<English>
+Build this for small culture and happiness boosts, but primarily for the priest specialist slots its provides.  Tleilaxu priests are boosted by their religious shrine.
+		</English>
+		<French>
+Permet d'améliorer la Culture et le Bonheur. A construire également pour le nombre de prêtres qu'il permet d'engager.
+		</French>
+		<German>
+Build this for small culture and happiness boosts, but primarily for the priest specialist slots its provides.  Tleilaxu priests are boosted by their religious shrine.
+		</German>
+		<Italian>
+Build this for small culture and happiness boosts, but primarily for the priest specialist slots its provides.  Tleilaxu priests are boosted by their religious shrine.
+		</Italian>
+		<Spanish>
+Build this for small culture and happiness boosts, but primarily for the priest specialist slots its provides.  Tleilaxu priests are boosted by their religious shrine.
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_IMPERIAL_ADVOCATE_PEDIA</Tag>
+		<English>
+A diplomat is a person appointed by a state to conduct diplomacy with one or more other states or international organizations. The main functions of diplomats revolve around the representation and protection of the interests and nationals of the sending state, as well as the promotion of information and friendly relations.
+		</English>
+		<French>
+Stub text for Imperial Diplomat
+		</French>
+		<German>
+Stub text for Imperial Diplomat
+		</German>
+		<Italian>
+Stub text for Imperial Diplomat
+		</Italian>
+		<Spanish>
+Stub text for Imperial Diplomat
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_IMPERIAL_ADVOCATE_STRATEGY</Tag>
+		<English>
+Use this diplomat to actively spread Imperial religion in friendly cities, or rival cities with whom you have Open Borders.
+		</English>
+		<French>
+Utilisez ce diplomate pour propager activement la religion Impériale dans les villes amies, ou chez vos rivaux si vous disposer d'un libre passage.
+		</French>
+		<German>
+Use this diplomat to actively spread Imperial religion in friendly cities, or rival cities with whom you have Open Borders.
+		</German>
+		<Italian>
+Use this diplomat to actively spread Imperial religion in friendly cities, or rival cities with whom you have Open Borders.
+		</Italian>
+		<Spanish>
+Use this diplomat to actively spread Imperial religion in friendly cities, or rival cities with whom you have Open Borders.
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MAHDI_MUJAHID_PEDIA</Tag>
+		<English>
+A military force of guerilla warriors engaged in a Jihad.
+		</English>
+		<French>
+Cette unité de fanatiques n'est pas particulièrement puissante, mais ne coûte presque rien, n'a pas de cout d'entretien, et ne génère pas de mécontentement en cas de perte. Construisez-en en masse et étouffez votre ennemi de ces vagues humaines zélées
+		</French>
+		<German>
+This fanatic unit is not incredibly strong, but it is cheap, it has no maintenance cost, and its death causes no war weariness.  Build these en masse, and swarm your enemy with a human wave of angry zealots.
+		</German>
+		<Italian>
+This fanatic unit is not incredibly strong, but it is cheap, it has no maintenance cost, and its death causes no war weariness.  Build these en masse, and swarm your enemy with a human wave of angry zealots.
+		</Italian>
+		<Spanish>
+This fanatic unit is not incredibly strong, but it is cheap, it has no maintenance cost, and its death causes no war weariness.  Build these en masse, and swarm your enemy with a human wave of angry zealots.
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MAHDI_MUJAHID_STRATEGY</Tag>
+		<English>
+This fanatic unit is not incredibly strong, but it is cheap, it has no maintenance cost, and its death causes no war weariness.  Build these en masse, and swarm your enemy with a human wave of angry zealots.
+		</English>
+		<French>
+Cette unité de fanatiques n'est pas particulièrement puissante, mais ne coûte presque rien, n'a pas de cout d'entretien, et ne génère pas de mécontentement en cas de perte. Construisez-en en masse et étouffez votre ennemi de ces vagues humaines zélées
+		</French>
+		<German>
+This fanatic unit is not incredibly strong, but it is cheap, it has no maintenance cost, and its death causes no war weariness.  Build these en masse, and swarm your enemy with a human wave of angry zealots.
+		</German>
+		<Italian>
+This fanatic unit is not incredibly strong, but it is cheap, it has no maintenance cost, and its death causes no war weariness.  Build these en masse, and swarm your enemy with a human wave of angry zealots.
+		</Italian>
+		<Spanish>
+This fanatic unit is not incredibly strong, but it is cheap, it has no maintenance cost, and its death causes no war weariness.  Build these en masse, and swarm your enemy with a human wave of angry zealots.
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CYMEK_PEDIA</Tag>
+		<English>
+A Cymek is type of thinking machine that at one point has been a human. At some point in time it has been converted into a cyborg: a robotic body controlled by the legacy human brain.  The Cymek's human brain is held in a preservation canister filled with electrafluid. In this state, and with frequent upkeep, the brain can live for a very long time.
+		</English>
+		<French>
+A Cymek is type of thinking machine that at one point has been a human. At some point in time it has been converted into a cyborg: a robotic body controlled by the legacy human brain.  The Cymek's human brain is held in a preservation canister filled with electrafluid. In this state, and with frequent upkeep, the brain can live for a very long time.
+		</French>
+		<German>
+A Cymek is type of thinking machine that at one point has been a human. At some point in time it has been converted into a cyborg: a robotic body controlled by the legacy human brain.  The Cymek's human brain is held in a preservation canister filled with electrafluid. In this state, and with frequent upkeep, the brain can live for a very long time.
+		</German>
+		<Italian>
+A Cymek is type of thinking machine that at one point has been a human. At some point in time it has been converted into a cyborg: a robotic body controlled by the legacy human brain.  The Cymek's human brain is held in a preservation canister filled with electrafluid. In this state, and with frequent upkeep, the brain can live for a very long time.
+		</Italian>
+		<Spanish>
+A Cymek is type of thinking machine that at one point has been a human. At some point in time it has been converted into a cyborg: a robotic body controlled by the legacy human brain.  The Cymek's human brain is held in a preservation canister filled with electrafluid. In this state, and with frequent upkeep, the brain can live for a very long time.
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CYMEK_STRATEGY</Tag>
+		<English>
+The Cymek is a powerful late game cyborg unit that requires the Thinking Machines religion.  Its first strikes and withdraw chance make it an excellent offensive unit, particularly for House Ix (since it benefits from the mechanized trait).
+		</English>
+		<French>
+Le Cymek est une unité cyborg qui requiert la religion Machines pensantes. Sa premièr attaque et la possibilité de retrait en font une excellente unité d'attaque, particulièrement pour le Maison Ix (avec les bénéfice du trait Mécanisé).
+		</French>
+		<German>
+The Cymek is a powerful late game cyborg unit that requires the Thinking Machines religion.  Its first strikes and withdraw chance make it an excellent offensive unit, particularly for House Ix (since it benefits from the mechanized trait).
+		</German>
+		<Italian>
+The Cymek is a powerful late game cyborg unit that requires the Thinking Machines religion.  Its first strikes and withdraw chance make it an excellent offensive unit, particularly for House Ix (since it benefits from the mechanized trait).
+		</Italian>
+		<Spanish>
+The Cymek is a powerful late game cyborg unit that requires the Thinking Machines religion.  Its first strikes and withdraw chance make it an excellent offensive unit, particularly for House Ix (since it benefits from the mechanized trait).
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CHOAM_EMISSARY_PEDIA</Tag>
+		<English>
+CHOAM works in a similar way to the Dutch East India Company in the 18th Century - that is, colonizing, controlling, exploring and mining frontier worlds to enrich Great Houses.
+		</English>
+		<French>
+Stub pedia for CHOAM Emissary
+		</French>
+		<German>
+Stub pedia for CHOAM Emissary
+		</German>
+		<Italian>
+Stub pedia for CHOAM Emissary
+		</Italian>
+		<Spanish>
+Stub pedia for CHOAM Emissary
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CHOAM_EMISSARY_STRATEGY</Tag>
+		<English>
+Use this emissary to actively spread the CHOAM to friendly cities, or rival cities with whom you have Open Borders.
+		</English>
+		<French>
+Utilisez cet émissaire pour propager activement le CHOM aux villes amies, ou auprès de vos rivaux si vous disposez du libre passage.
+		</French>
+		<German>
+Use this emissary to actively spread the CHOAM to friendly cities, or rival cities with whom you have Open Borders.
+		</German>
+		<Italian>
+Use this emissary to actively spread the CHOAM to friendly cities, or rival cities with whom you have Open Borders.
+		</Italian>
+		<Spanish>
+Use this emissary to actively spread the CHOAM to friendly cities, or rival cities with whom you have Open Borders.
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MAHDI_ADVOCATE_PEDIA</Tag>
+		<English>
+A military force of guerilla warriors engaged in a Jihad.
+		</English>
+		<French>
+Stub text for Mahdi Zealot
+		</French>
+		<German>
+Stub text for Mahdi Zealot
+		</German>
+		<Italian>
+Stub text for Mahdi Zealot
+		</Italian>
+		<Spanish>
+Stub text for Mahdi Zealot
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MAHDI_ADVOCATE_STRATEGY</Tag>
+		<English>
+The Mahdi Zealot may only be built by civilizations following Mahdi religion.  It is an inexpensive combat unit which does not cost any military support, so large stacks may be built for little cost.
+		</English>
+		<French>
+Le Zélé Mahdi est accessible aux civilisations ayant adopté la Religion Mahdi. C'est une unité de combat peu chère et ne nécessitant pas de soutien financier. Il est donc possible d'en créer une armée pour un moindre coût.
+		</French>
+		<German>
+The Mahdi Zealot may only be built by civilizations following Mahdi religion.  It is an inexpensive combat unit which does not cost any military support, so large stacks may be built for little cost.
+		</German>
+		<Italian>
+The Mahdi Zealot may only be built by civilizations following Mahdi religion.  It is an inexpensive combat unit which does not cost any military support, so large stacks may be built for little cost.
+		</Italian>
+		<Spanish>
+The Mahdi Zealot may only be built by civilizations following Mahdi religion.  It is an inexpensive combat unit which does not cost any military support, so large stacks may be built for little cost.
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_QIZARATE_ADVOCATE_PEDIA</Tag>
+		<English>
+Qizara Tafwid is the name given to an individual priest. Collectively the Qizara are the Qizarate, a powerful religious administration that is always looking for opportunites to extend their influence and eliminate enemies of the faith.
+		</English>
+		<French>
+Qizara Tafwid is the name given to an individual priest. Collectively the Qizara are the Qizarate, a powerful religious administration that is always looking for opportunites to extend their influence and eliminate enemies of the faith.
+		</French>
+		<German>
+Qizara Tafwid is the name given to an individual priest. Collectively the Qizara are the Qizarate, a powerful religious administration that is always looking for opportunites to extend their influence and eliminate enemies of the faith.
+		</German>
+		<Italian>
+Qizara Tafwid is the name given to an individual priest. Collectively the Qizara are the Qizarate, a powerful religious administration that is always looking for opportunites to extend their influence and eliminate enemies of the faith.
+		</Italian>
+		<Spanish>
+Qizara Tafwid is the name given to an individual priest. Collectively the Qizara are the Qizarate, a powerful religious administration that is always looking for opportunites to extend their influence and eliminate enemies of the faith.
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_QIZARATE_ADVOCATE_STRATEGY</Tag>
+		<English>
+Use this prophet to actively spread Qizarate religion in friendly cities, or rival cities with whom you have Open Borders.
+		</English>
+		<French>
+Utilisez ce prophète pour propager activement la religion Qizarate aux villes amies, ou auprès de vos rivaux si vous disposez de libre passage.
+		</French>
+		<German>
+Use this prophet to actively spread Qizarate religion in friendly cities, or rival cities with whom you have Open Borders.
+		</German>
+		<Italian>
+Use this prophet to actively spread Qizarate religion in friendly cities, or rival cities with whom you have Open Borders.
+		</Italian>
+		<Spanish>
+Use this prophet to actively spread Qizarate religion in friendly cities, or rival cities with whom you have Open Borders.
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SHAIHULUD_ADVOCATE_PEDIA</Tag>
+		<English>
+The term Sayyadina (meaning "friend of God" in Chakobsa) was used by the Fremen to describe their lower-ranking priestesses who had not yet changed the Water of Life and become Reverend Mothers.
+		</English>
+		<French>
+Stub text for Shai-Hulud Sayyadina
+		</French>
+		<German>
+Stub text for Shai-Hulud Sayyadina
+		</German>
+		<Italian>
+Stub text for Shai-Hulud Sayyadina
+		</Italian>
+		<Spanish>
+Stub text for Shai-Hulud Sayyadina
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SHAIHULUD_ADVOCATE_STRATEGY</Tag>
+		<English>
+Use the Sayyadina to actively spread Shai-Hulud superstition in friendly cities, or rival cities with whom you have Open Borders.
+		</English>
+		<French>
+Utilisez la Sayyadina pour propager activement les superstitions Shai-Hulud aux villes amies, ou auprès des Rivaux si vous disposer de libre passage.
+		</French>
+		<German>
+Use the Sayyadina to actively spread Shai-Hulud superstition in friendly cities, or rival cities with whom you have Open Borders.
+		</German>
+		<Italian>
+Use the Sayyadina to actively spread Shai-Hulud superstition in friendly cities, or rival cities with whom you have Open Borders.
+		</Italian>
+		<Spanish>
+Use the Sayyadina to actively spread Shai-Hulud superstition in friendly cities, or rival cities with whom you have Open Borders.
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TECHNOCRAT_ADVOCATE_PEDIA</Tag>
+		<English>
+"The seeking machines would be there, the smell of blood and entrails, the cowering humans in their burrows aware only that they could not escape . . . while all the time the mechanical movement approached, nearer and nearer and nearer ...louder...louder! Everywhere she searched, it would be the same. No escape anywhere." - Visions of a future...
+		</English>
+		<French>
+Stub pedia for Thinking Machine Propagator
+		</French>
+		<German>
+Stub pedia for Thinking Machine Propagator
+		</German>
+		<Italian>
+Stub pedia for Thinking Machine Propagator
+		</Italian>
+		<Spanish>
+Stub pedia for Thinking Machine Propagator
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TECHNOCRAT_ADVOCATE_STRATEGY</Tag>
+		<English>
+Use this advocate to actively spread Technocracy in friendly cities, or rival cities with whom you have Open Borders.
+		</English>
+		<French>
+Utilisez l'avocat Technocrate pour propager activement la Technocracie aux villes amies, ou auprès des Rivaux si vous disposer de libre passage.
+		</French>
+		<German>
+Use this advocate to actively spread Technocracy in friendly cities, or rival cities with whom you have Open Borders.
+		</German>
+		<Italian>
+Use this advocate to actively spread Technocracy in friendly cities, or rival cities with whom you have Open Borders.
+		</Italian>
+		<Spanish>
+Use this advocate to actively spread Technocracy in friendly cities, or rival cities with whom you have Open Borders.
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_IMPERIAL</Tag>
+		<English>Imperial</English>
+		<French>Imp�riale</French>
+		<German>Imperial</German>
+		<Italian>Imperial</Italian>
+		<Spanish>Imperial</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_CHOAM</Tag>
+		<English>CHOAM</English>
+		<French>CHOM</French>
+		<German>CHOAM</German>
+		<Italian>CHOAM</Italian>
+		<Spanish>CHOAM</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_MAHDI</Tag>
+		<English>Mahdi</English>
+		<French>Mahdi</French>
+		<German>Mahdi</German>
+		<Italian>Mahdi</Italian>
+		<Spanish>Mahdi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_QIZARATE</Tag>
+		<English>Qizarate</English>
+		<French>Qizarate</French>
+		<German>Qizarate</German>
+		<Italian>Qizarate</Italian>
+		<Spanish>Qizarate</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_SHAIHULUD</Tag>
+		<English>Shai-Hulud</English>
+		<French>Shai-Hulud</French>
+		<German>Shai-Hulud</German>
+		<Italian>Shai-Hulud</Italian>
+		<Spanish>Shai-Hulud</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_TECHNOCRAT</Tag>
+		<English>Thinking Machines</English>
+		<French>Machines Pensantes</French>
+		<German>Thinking Machines</German>
+		<Italian>Thinking Machines</Italian>
+		<Spanish>Thinking Machines</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_TLEILAXU</Tag>
+		<English>Tleilaxu Zensufism</English>
+		<French>Zen-Soufisme Tleilaxu</French>
+		<German>Tleilaxu Zensufism</German>
+		<Italian>Tleilaxu Zensufism</Italian>
+		<Spanish>Tleilaxu Zensufism</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_IMPERIAL_ADJECTIVE</Tag>
+		<English>Imperial</English>
+		<French>Imp�riale</French>
+		<German>Imperial</German>
+		<Italian>Imperial</Italian>
+		<Spanish>Imperial</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_CHOAM_ADJECTIVE</Tag>
+		<English>CHOAM</English>
+		<French>CHOM</French>
+		<German>CHOAM</German>
+		<Italian>CHOAM</Italian>
+		<Spanish>CHOAM</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_MAHDI_ADJECTIVE</Tag>
+		<English>Mahdi</English>
+		<French>Mahdi</French>
+		<German>Mahdi</German>
+		<Italian>Mahdi</Italian>
+		<Spanish>Mahdi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_QIZARATE_ADJECTIVE</Tag>
+		<English>Qizarate</English>
+		<French>Qizarate</French>
+		<German>Qizarate</German>
+		<Italian>Qizarate</Italian>
+		<Spanish>Qizarate</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_SHAIHULUD_ADJECTIVE</Tag>
+		<English>Shai-Hulud</English>
+		<French>Shai-Hulud</French>
+		<German>Shai-Hulud</German>
+		<Italian>Shai-Hulud</Italian>
+		<Spanish>Shai-Hulud</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_TECHNOCRAT_ADJECTIVE</Tag>
+		<English>Thinking Machine</English>
+		<French>Machines Pensantes</French>
+		<German>Thinking Machine</German>
+		<Italian>Thinking Machine</Italian>
+		<Spanish>Thinking Machine</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_TLEILAXU_ADJECTIVE</Tag>
+		<English>Tleilaxu Zensufism</English>
+		<French>Zen-Soufisme</French>
+		<German>Tleilaxu Zensufism</German>
+		<Italian>Tleilaxu Zensufism</Italian>
+		<Spanish>Tleilaxu Zensufism</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_WILDFIRE</Tag>
+		<English>A new belief has spread like wildfire to %d1 of your cities.</English>
+		<French>Une nouvelle religion se r�pend de mani�re impressionnante dans %d1 de vos Villes.</French>
+		<German>A new belief has spread like wildfire to %d1 of your cities.</German>
+		<Italian>A new belief has spread like wildfire to %d1 of your cities.</Italian>
+		<Spanish>A new belief has spread like wildfire to %d1 of your cities.</Spanish>
+	</TEXT>
+</Civ4GameText>

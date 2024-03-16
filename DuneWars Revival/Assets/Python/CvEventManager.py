@@ -32,6 +32,7 @@ import WBGameDataScreen
 import WBPlotScreen
 import CvPlatyBuilderScreen
 
+import DuneWars
 
 gc = CyGlobalContext()
 localText = CyTranslator()
@@ -427,6 +428,8 @@ class CvEventManager:
 		'Called at the end of the end of each turn'
 		iGameTurn = argsList[0]
 		
+		DuneWars.choamHq()
+		
 	def onBeginPlayerTurn(self, argsList):
 		'Called at the beginning of a players turn'
 		iGameTurn, iPlayer = argsList
@@ -434,6 +437,9 @@ class CvEventManager:
 	def onEndPlayerTurn(self, argsList):
 		'Called at the end of a players turn'
 		iGameTurn, iPlayer = argsList
+		
+		DuneWars.offWorldTrade(iPlayer)
+
 		#i = CvUtil.findInfoTypeNum(gc.getBuildingInfo, gc.getNumBuildingInfos(),'')
                 #CyInterface().addImmediateMessage("%s" % (gc.getBuildingInfo(119).getDescription()), None)
                 
