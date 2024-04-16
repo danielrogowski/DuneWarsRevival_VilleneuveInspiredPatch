@@ -32,7 +32,7 @@ SEQUENCE = "Sequence"
 OFFWORLD_TECH = "TECH_OFFWORLD_TRADE"
 #NEEDED_BUILDING = "NO_BUILDING"
 
-dictHomeworld = {'CIVILIZATION_ATREIDES' : 'Caladan', 'CIVILIZATION_ORDOS' : 'Sigma Draconis', 'CIVILIZATION_TLEILAX' : 'Tleilax', 'CIVILIZATION_CORRINO' : 'Kaitain', 'CIVILIZATION_HARKONNEN' : 'Geidi Prime', 'CIVILIZATION_GESSERIT' : 'Wallach IX', 'CIVILIZATION_IX' : 'Ix', 'CIVILIZATION_ECAZ' : 'Ecaz', 'CIVILIZATION_FREMEN' : 'the Southern Sietches', 'CIVILIZATION_RICHESE' : 'Richese'}
+dictHomeworld = {'CIVILIZATION_ATREIDES' : 'Caladan', 'CIVILIZATION_ORDOS' : 'Sigma Draconis', 'CIVILIZATION_TLEILAX' : 'Tleilax', 'CIVILIZATION_CORRINO' : 'Salusa Secundus', 'CIVILIZATION_HARKONNEN' : 'Giedi Prime', 'CIVILIZATION_GESSERIT' : 'Wallach IX', 'CIVILIZATION_IX' : 'Ix', 'CIVILIZATION_ECAZ' : 'Ecaz', 'CIVILIZATION_FREMEN' : 'the Southern Sietches', 'CIVILIZATION_RICHESE' : 'Richese'}
 		
 #Base chance of spawning a unit in a player's unit pool
 g_iSpawningChance = 50
@@ -480,7 +480,11 @@ class MercenaryUtils:
 	def getPromotions(self, player, iUnit):
 		UnitInfo = gc.getUnitInfo(iUnit)
 		bElite = false
-		PromotionList = ["PROMOTION_MERCENARY"]
+		civtype = player.getCivilizationType()
+		if civtype != CivilizationTypes.FREMEN_CIV and civtype != CivilizationTypes.CORRINO_CIV:
+			PromotionList = ["PROMOTION_MERCENARY"]
+		else:
+			PromotionList = []
 		
 		for i in xrange(gc.getNumTraitInfos()):
 			if player.hasTrait(i):
@@ -494,7 +498,7 @@ class MercenaryUtils:
 		iRnd1 = gc.getGame().getMapRand().get(100, "Promotion Chance")
 
                 # !M! -> Ordos better chance:
-		if player.getCivilizationType() == CivilizationTypes.ORDOS_CIV:
+		if civtype == CivilizationTypes.ORDOS_CIV:
                         iChance = 35
                         
 		if iRnd1 <= iChance:
