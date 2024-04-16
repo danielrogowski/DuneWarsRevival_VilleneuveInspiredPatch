@@ -22978,7 +22978,7 @@
 			<FreeBuilding>NONE</FreeBuilding>
 			<FreePromotion>NONE</FreePromotion>
 			<CivicOption>NONE</CivicOption>
-			<GreatPeopleUnitClass>UNITCLASS_ARTIST</GreatPeopleUnitClass>
+			<GreatPeopleUnitClass>UNITCLASS_GREAT_SPY</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<iHurryAngerModifier>0</iHurryAngerModifier>
 			<bBorderObstacle>0</bBorderObstacle>
@@ -34522,7 +34522,7 @@
 			<BonusConsumed>BONUS_SPICE</BonusConsumed>
 			<YieldProduced>
 				<iYield>0</iYield>
-				<iYield>0</iYield>
+				<iYield>50</iYield>
 				<iYield>200</iYield>
 			</YieldProduced>
 			<ReligionChanges/>
