@@ -1743,21 +1743,7 @@ class DuneWars:
         return int(iCount * iPercentage / 100)
 
     def SpiceVictoryGetPercentage(self):
-        if CyMap().getWorldSize() == 6:
-            iPercentageSpice = 45
-        elif CyMap().getWorldSize() == 5:
-            iPercentageSpice = 50
-        elif CyMap().getWorldSize() == 4:
-            iPercentageSpice = 55
-        elif CyMap().getWorldSize() == 3:
-            iPercentageSpice = 60
-        elif CyMap().getWorldSize() == 2:
-            iPercentageSpice = 65
-        elif CyMap().getWorldSize() == 1:
-            iPercentageSpice = 70
-        elif CyMap().getWorldSize() == 0:
-            iPercentageSpice = 75
-        return iPercentageSpice
+        return 80
 
     def SpiceVictoryFixedAmount(self):
         self.Initialize()
