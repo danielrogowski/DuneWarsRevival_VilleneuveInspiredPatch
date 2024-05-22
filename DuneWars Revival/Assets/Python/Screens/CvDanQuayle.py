@@ -117,20 +117,20 @@ class CvDanQuayle:
 		else:
 			iNormalScore = 0
 		
-		prefix = "a"
+		prefix = "a "
 		
 		if iNormalScore > 1.5:
 			szLeaderText = self.leaders[0]
-			prefix = "the"
+			prefix = "the "
 		elif iNormalScore > 1.4:
 			szLeaderText = self.leaders[1]
-			prefix = "the"
+			prefix = "the "
 		elif iNormalScore > 1.3:
 			szLeaderText = self.leaders[2]
-			prefix = "the"
+			prefix = "the "
 		elif iNormalScore > 1.2:
 			szLeaderText = self.leaders[3]
-			prefix = "an"
+			prefix = "an "
 		elif iNormalScore > 1.1:
 			szLeaderText = self.leaders[4]
 		elif iNormalScore > 1.05:
@@ -166,7 +166,7 @@ class CvDanQuayle:
 			prefix = ""
 
 		screen.addPanel("", u"", u"", True, False, self.X_TEXT, self.Y_TEXT, self.W_TEXT, self.H_TEXT, PanelStyles.PANEL_STYLE_IN)
-		screen.addMultilineText(self.TEXT_ID, localText.getText("TXT_KEY_DQ_TEXT_STRING", (replayInfo.getLeaderName(), prefix + szLeaderText, )), self.X_TEXT+5, self.Y_TEXT+5, self.W_TEXT-10, self.H_TEXT-10, WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)	
+		screen.addMultilineText(self.TEXT_ID, localText.getText("TXT_KEY_DQ_TEXT_STRING", (replayInfo.getLeaderName(), prefix + localText.getText(szLeaderText, ()), )), self.X_TEXT+5, self.Y_TEXT+5, self.W_TEXT-10, self.H_TEXT-10, WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)	
 		
 		screen.addPanel(self.SCORE_ID, u"", u"", True, False, self.X_SCORE, self.Y_SCORE, self.W_SCORE, self.H_SCORE, PanelStyles.PANEL_STYLE_IN)
 		screen.setLabelAt("", self.SCORE_ID, u"<font=4>" + localText.getObjectText("TXT_KEY_VICTORY_SCORE", 0) + u" : " + unicode(iScore) + u"</font>", CvUtil.FONT_CENTER_JUSTIFY, self.W_SCORE/2-10, 5, 0, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
